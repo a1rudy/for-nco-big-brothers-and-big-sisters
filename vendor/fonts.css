@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'PTRoot';
+  font-style: normal;
+  font-weight: normal;
+  src:
+  url('../vendor/PT-Root-UI_Regular.woff2') format('woff2'),
+  url('../vendor/PT-Root-UI_Regular.woff') format('woff'),
+  url('../vendor/PT-Root-UI_Regular.ttf') format('truetype'),
+  url('../vendor/PT-Root-UI_Regular.eot') format('embedded-opentype'),
+}
+
+@font-face {
+  font-family: 'Proto';
+  font-style: normal;
+  font-weight: normal;
+  src:
+  url('../vendor/Proto\ Grotesk-Light-Web.woff2') format('woff2'),
+  url('../vendor/Proto\ Grotesk-Light-Web.woff') format('woff'),
+  url('../vendor/Proto\ Grotesk-Light-Web.ttf') format('truetype'),
+  url('../vendor/Proto\ Grotesk-Light-Web.eot') format('embedded-opentype'),
+}
