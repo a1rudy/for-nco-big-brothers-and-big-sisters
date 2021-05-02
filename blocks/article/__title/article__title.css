@@ -1,0 +1,26 @@
+.article__title {
+  display: inline-block;
+  cursor: pointer;
+  transition: color .2s ease .23s;
+  margin: 0;
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 30px;
+}
+
+@media (max-width: 750px) {
+  .article__title {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}
+
+.article__title:hover {
+  color:#2E2468;
+}
+
+.article__title:active {
+  color:#224CFF;
+}

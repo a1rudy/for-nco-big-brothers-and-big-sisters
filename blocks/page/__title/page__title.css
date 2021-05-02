@@ -1,0 +1,26 @@
+.page__title {
+  display: inline-block;
+  cursor: pointer;
+  transition: color .2s ease .23s;
+  margin: 0;
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 74px;
+  line-height: 80px;
+}
+
+@media (max-width: 750px) {
+  .page__title {
+    font-size: 37px;
+    line-height: 39px;
+  }
+}
+
+.page__title:hover {
+  color:#2E2468;
+}
+
+.page__title:active {
+  color:#224CFF;
+}
