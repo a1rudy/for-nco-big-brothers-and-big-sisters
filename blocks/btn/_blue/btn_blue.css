@@ -1,0 +1,12 @@
+.btn_blue {
+  color: #224CFF;
+  border-color: #224CFF;
+}
+
+.btn_blue:hover {
+  background-color: #C8D1FF;
+}
+
+.btn_blue:active {
+  background-color: #224CFF;
+}

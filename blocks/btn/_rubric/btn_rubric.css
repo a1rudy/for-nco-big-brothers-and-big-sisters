@@ -1,0 +1,16 @@
+.btn_rubric {
+  font-family: PT Root UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  color: #464646;
+  padding: 2px 7px;
+  background-color: #F3F2F2;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-width: 0;
+}
+.btn_rubric:hover {
+  color:#000;
+}

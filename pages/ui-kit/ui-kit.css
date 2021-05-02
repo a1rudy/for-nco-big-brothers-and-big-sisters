@@ -1,0 +1,14 @@
+@import url('../../vendor/normalize.css');
+
+@import url('../../vendor/fonts.css');
+
+@import url('../../blocks/body/body.css');
+@import url('../../blocks/page/page.css');
+
+@import url('../../blocks/');
+
+/* стили для кнопок */
+
+@import url('../../blocks/btn/btn.css');
+@import url('../../blocks/btn/_blue/btn_blue.css');
+@import url('../../blocks/btn/_rubric/btn_rubric.css');
