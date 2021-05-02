@@ -1,0 +1,16 @@
+.date__humber {
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 100px;
+  line-height: 100px;
+  letter-spacing: -2px;
+  margin: 0;
+}
+
+@media (max-width: 750px) {
+  .date__humber {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
