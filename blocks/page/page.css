@@ -11,7 +11,7 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video, main {
   border: 1px solid red;
-}
+} 
 
 .page {
   min-width: 320px;
