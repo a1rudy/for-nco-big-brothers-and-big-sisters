@@ -18,12 +18,12 @@
   background-color: #A7A6A6;
 }
 
-.btn:active {
+.btn:focus {
   color: #fff;
   background-color: #000;
 }
 
-.btn:active:hover {
+.btn:focus:hover {
   color: #fff;
   background-color: #2E2468;
 }

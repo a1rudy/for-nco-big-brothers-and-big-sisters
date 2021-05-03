@@ -7,6 +7,6 @@
   background-color: #C8D1FF;
 }
 
-.btn_blue:active {
+.btn_blue:focus {
   background-color: #224CFF;
 }

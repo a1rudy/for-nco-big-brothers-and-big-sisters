@@ -1,0 +1,4 @@
+.task__action-container {
+  display: flex;
+  justify-content: space-between;
+}
