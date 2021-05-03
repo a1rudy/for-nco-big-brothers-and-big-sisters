@@ -1,0 +1,148 @@
+.header {
+  min-width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 40px 75px 80px;
+}
+
+.header__logo {
+  width: 183px; 
+}
+
+.header__logo:hover {
+  content: url(../../images/header/logo-hover.svg)
+}
+
+.menu {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  align-self: center;
+}
+
+.menu__link {
+  text-shadow: 0px 4px 5px rgba(0, 0, 0, .3);
+  padding-right: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.menu__link:hover {
+  color: blue;
+}
+
+.menu__link:last-child {
+  padding-right: 0;
+}
+
+.buttons-wrap {
+  align-self: center;
+}
+
+.buttons-wrap::after {
+  height: 1px;
+  width: 20px;
+  content: '';
+  display: block;
+  transform: rotate(90deg);
+  background-color: lightgray;
+  position: relative;
+  left: 37px;
+  bottom: 18px;
+}
+
+.search-button {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: none;
+  margin: auto;
+  cursor: pointer;
+  background-image: url(../../images/header/search-logo.png);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.account-button {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: none;
+  margin: auto;
+  cursor: pointer;
+  background-image: url(../../images/header/accaunt-logo.png);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.margin-left {
+  margin-left: 30px;
+}
+
+.burger-button {
+  display: none;
+  align-self: center;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    flex-direction: row-reverse;
+    padding: 30px 117px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header__logo {
+    width: 130px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .burger-button {
+    display: block;
+    width: 30px;
+    height: 20px;
+    background-image: url('../../images/header/logo-burger.png');
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all .2s linear .23s;
+    border: none;
+    padding: 0;
+   }
+
+   .menu__btn:hover {
+     opacity: .5;
+     cursor: pointer;
+   }
+}
+
+@media (max-width: 1200px) {
+  .buttons-wrap::after {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .account-button {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    padding: 10px;
+  }
+}
