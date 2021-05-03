@@ -1,0 +1,26 @@
+.footer {
+  min-width: 100%;
+  background-color: #2E2468;
+}
+
+.donate-button {
+  width: 169px;
+  height: 48px;
+  font-style: normal; 
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #fff;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  border-radius: 100px;
+  padding: 14px 20px;
+  background-color: #2E2468;
+  transition: all .2s ease .23s;
+}
+
+.donate-button:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: #A7A6A6;
+}
