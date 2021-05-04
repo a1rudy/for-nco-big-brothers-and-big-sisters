@@ -1,9 +1,0 @@
-.task {
-  padding: 30px;
-}
-
-@media(max-width:750px) {
-  .task {
-    padding: 30px 15px;
-  }
-}

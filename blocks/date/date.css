@@ -1,4 +1,4 @@
-.date__month-week {
+.date {
   font-family: PT Root UI;
   font-style: normal;
   font-weight: normal;
@@ -12,8 +12,26 @@
 }
 
 @media(max-width: 750px) {
-  .date__month-week {
+  .date {
     font-size: 12px;
     line-height: 17px;
+  }
+}
+
+.date__day{
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 100px;
+  line-height: 100px;
+  letter-spacing: -2px;
+  margin: 0;
+  text-align: right;
+}
+
+@media (max-width: 750px) {
+  .date__day {
+    font-size: 60px;
+    line-height: 60px;
   }
 }
