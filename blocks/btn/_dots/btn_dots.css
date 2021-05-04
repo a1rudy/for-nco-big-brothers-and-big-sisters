@@ -1,0 +1,20 @@
+.btn_dots {
+  width: 48px;
+  height: 48px;
+  background-image: url('../../../images/tasks/dots.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+  
+}
+
+.btn_dots:focus {
+  background-image: url('../../../images/tasks/dots_white.svg');
+}
+
+@media(max-width:750px) {
+  .btn_dots {
+    width: 40px;
+    height: 40px;
+  }
+}

@@ -1,15 +1,18 @@
-.article__subtitle {
+.date__month-week {
   font-family: PT Root UI;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
   letter-spacing: 0.2px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-transform: lowercase;
   margin: 0;
+  text-align: right;
 }
 
-@media (max-width: 750px) {
-  .article__subtitle {
+@media(max-width: 750px) {
+  .date__month-week {
     font-size: 12px;
     line-height: 17px;
   }

@@ -1,0 +1,19 @@
+.task__info {
+  padding: 10px 0;
+  border-bottom: 1px solid #A7A6A6;
+}
+
+.task__info:first-of-type {
+  padding-top: 0;
+}
+
+.task__info:last-of-type {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+@media(max-width:750px) {
+  .task__info {
+    padding: 5px 0;
+  }
+}

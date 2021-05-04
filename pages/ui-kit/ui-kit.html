@@ -8,10 +8,25 @@
   <title>UI-kit</title>
 </head>
   <body class="body">
-    <div class="page">
-      <!-- <header class="header"> 
-      </header> -->
-
+    <div class="page" style="background-color: aquamarine;">
+      <header class="header ">
+        <button class="burger-button" type="button"></button>
+        <a href="#" target="_blank"><img class="header__logo" src="../../images/header/logo.svg" alt="логотип наставник про"></a>
+        <nav class="menu">
+          <ul class="menu__links">
+            <li><a class="menu__link" href="" target="_blank">КАЛЕНДАРЬ</a></li>
+            <li><a class="menu__link" href="" target="_blank">КУДА ПОЙТИ</a></li>  
+            <li><a class="menu__link" href="" target="_blank">ВОПРОСЫ</a></li>  
+            <li><a class="menu__link" href="" target="_blank">ЧИТАТЬ И СМОТРЕТЬ</a></li>  
+            <li><a class="menu__link" href="" target="_blank">ПРАВА ДЕТЕЙ</a></li>  
+            <li><a class="menu__link" href="" target="_blank">ИСТОРИИ</a></li>
+          </ul>
+        </nav>
+        <div class="buttons-wrap">
+          <button class="search-button"></button>
+          <button class="account-button margin-left"></button>
+        </div>
+      </header>
       <main class="main">
 
         <section class="">
@@ -28,23 +43,69 @@
         <section class="">
           <a href="#" class="menu__link">меню</a>
           <a href="#" class="menu__link menu__link_active">меню</a>
-          <p class="date__humber">1235</p>
+          <p class="date__day">1235</p>
 
           <h1 class="page__title">Заголовок h1</h1>
           <h3 class="section__title">Заголовок h3</h3>
           <h2 class="article__title">Заголовок h2</h2>
           <p class="article__text">Настоящие дружеские отношения строятся на взаимном интересе, доверии и привязанности. Когда наставник для ребенка становится именно другом, а не просто знакомым или волонтером, то подопечный начинает быть искренне заинтересован в общении, начинает ждать встреч, звонить по телефону.</p>
           <a href="#" class="article__link">Кликабельные элементы</a>
-          <p class="article__subtitle">Подпись</p>
+          <p class="article__info">Подпись</p>
         </section>
-        <section class=""></section>
-        <section class=""></section>
+        <section class="" style="width: 290px">
+          <h3 class="section__title">Календарь</h3>
+
+          <article class="article task task_theme_white">
+            <div class="task__header-container">
+              <p class="article__info article__info_theme_dark-gray">Волонтёры + дети</p>
+              <p class="date__month-week">Декабрь / Понедельник</p>
+              <h2 class="article__title">Субботний meet up: учимся проходить интевью</h2>
+              <p class="date__day">05</p>
+            </div>
+            <ul class="task__info-container">
+              <li class="task__info"><p class="article__info">12:00–14:00</p></li>
+              <li class="task__info"><p class="article__info">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p></li>
+              <li class="task__info"><p class="article__info">Александра, +7 926 356-78-90</p></li>
+            </ul>
+            <div class="task__action-container">
+              <div class="task__record-container">
+                <button class="btn btn_blue" type="button">Записаться</button>
+                <p class="article__info">Осталось 5 мест</p>
+              </div> 
+              <button class="btn btn_blue btn_dots" type="button"></button>
+            </div>
+          </article>
+        </section>
+        <section class="">
+          <article class="article task task_theme_light-blue">
+            <div class="task__header-container">
+              <p class="article__info article__info_theme_dark-gray">Волонтёры + дети</p>
+              <p class="date__month-week">Декабрь / Понедельник</p>
+              <h2 class="article__title">Субботний meet up: учимся проходить интевью</h2>
+              <p class="date__day">05</p>
+            </div>
+            <ul class="task__info-container">
+              <li class="task__info"><p class="article__info">12:00–14:00</p></li>
+              <li class="task__info"><p class="article__info">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p></li>
+              <li class="task__info"><p class="article__info">Александра, +7 926 356-78-90</p></li>
+            </ul>
+            <div class="task__action-container">
+              <div class="task__record-container">
+                <button class="btn btn_blue" type="button" >Отменить запись</button>
+                <p class="article__info article__info_hide">Осталось 5 мест</p>
+              </div> 
+              <button class="btn btn_blue btn_dots" type="button"></button>
+            </div>
+          </article>
+        </section>
         <section class=""></section>
         
       </main>
 
-      <!-- <footer class="footer">
-      </footer> -->
+      <footer class="footer">
+        <img class="footer__logo" src="./../../images/footer/logo-bbbs.png" alt="Логотип: Старшие браться, старшие сестры" >
+        <button class="donate-button" type="button">Помочь деньгами</button>
+      </footer>
     </div>
   </body>
 </html>

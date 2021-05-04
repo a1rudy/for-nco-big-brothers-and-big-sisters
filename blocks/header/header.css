@@ -59,11 +59,10 @@
 .search-button {
   width: 30px;
   height: 30px;
-  background-color: #fff;
   border: none;
   margin: auto;
   cursor: pointer;
-  background-image: url(../../images/header/search-logo.png);
+  background-image: url(../../images/header/search-logo.svg);
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -76,7 +75,7 @@
   border: none;
   margin: auto;
   cursor: pointer;
-  background-image: url(../../images/header/accaunt-logo.png);
+  background-image: url(../../images/header/search-logo.svg);
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -104,7 +103,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 750px) {
   .burger-button {
     display: block;
     width: 30px;
@@ -125,21 +124,36 @@
    }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 750px) {
   .buttons-wrap::after {
     display: none;
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 750px) {
   .account-button {
     display: none;
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 750px) {
   .menu {
-    display: none;
+    width: 100%;
+    position: fixed;
+    top:52px;
+    visibility: hidden;
+    height: calc(100% - 52px);
+    right: -100%;
+    transition-duration: .5s;
+    background-color:#fff;
+    border-radius: 0px 0px 30px 30px;
+  }
+  .menu_active {
+    visibility: visible;
+    right: 0;
+  }
+  .menu__links {
+    flex-direction: column;
   }
 }
 

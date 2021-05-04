@@ -12,21 +12,48 @@
 @import url('../../blocks/btn/btn.css');
 @import url('../../blocks/btn/_blue/btn_blue.css');
 @import url('../../blocks/btn/_rubric/btn_rubric.css');
+@import url('../../blocks/btn/_dots/btn_dots.css');
 
 /* Линки в меню */
 
 @import url('../../blocks/menu/__link/menu__link.css');
 @import url('../../blocks/menu/__link/_active/menu__link_active.css');
 
-/* Стиль для цифр в дате */
+/* Стиль для дат */
+@import url('../../blocks/date/__month-week/date__month-week.css');
 
-@import url('../../blocks/date/__humber/date__humber.css');
+@import url('../../blocks/date/__day/date__day.css');
 
 /* Стили для заголовков, текста, кликабельных элементов и подписи */
 
 @import url('../../blocks/page/__title/page__title.css');
 @import url('../../blocks/section/__title/section__title.css');
 @import url('../../blocks/article/__title/article__title.css');
-@import url('../../blocks/article/__subtitle/article__subtitle.css');
+@import url('../../blocks/article/__info/article__info.css');
 @import url('../../blocks/article/__text/article__text.css');
 @import url('../../blocks/article/__link/article__link.css');
+
+
+
+/* Стили для task-ов */
+@import url('../../blocks/article/article.css');
+@import url('../../blocks/article/__info/_theme/article__info_theme_dark-gray.css');
+@import url('../../blocks/article/__info/_hide/article__info_hide.css');
+
+@import url('../../blocks/task/task.css');
+
+@import url('../../blocks/task/_theme/task_theme_white.css');
+@import url('../../blocks/task/_theme/task_theme_light-blue.css');
+
+@import url('../../blocks/task/__header-container/task__header-container.css');
+
+@import url('../../blocks/task/__info-container/task__info-container.css');
+@import url('../../blocks/task/__info/task__info.css');
+
+@import url('../../blocks/task/__action-container/task__action-container.css');
+@import url('../../blocks/task/__record-container/task__record-container.css');
+
+
+@import url('../../blocks/header/header.css');
+
+@import url('../../blocks/footer/footer.css');

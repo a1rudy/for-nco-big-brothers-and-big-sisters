@@ -1,0 +1,16 @@
+.article__info {
+  font-family: PT Root UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  margin: 0;
+}
+
+@media (max-width: 750px) {
+  .article__info {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
