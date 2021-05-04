@@ -1,9 +1,33 @@
 .footer {
   min-width: 100%;
   background-color: #2E2468;
+  padding: 90px 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__grid-container {
+  max-width: 1156px;
+  display: grid;
+  grid-template-columns: 1fr min-content 50px minmax(min-content, max-content) minmax(min-content, max-content);
+  grid-template-rows: return(3, min-content);
+  column-gap: 45px;
+}
+
+.footer__logo {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .donate-button {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
   width: 169px;
   height: 48px;
   font-style: normal; 
@@ -23,4 +47,82 @@
 .donate-button:hover {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   background-color: #A7A6A6;
+}
+
+
+.footer__copyright {
+  align-self: end;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: #C8D1FF;
+  margin: 0;
+}
+
+.footer__dev-block {
+  align-self: flex-end;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+  display: flex;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.footer__copyright {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.footer__dev-link {
+  color: #fff;
+}
+
+.footer__dev-text {
+  min-width: max-content;
+  margin: 0;
+}
+
+.footer__dev-text:first-child {
+  margin-right: 30px;
+}
+
+.menu_type_footer {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: -2;
+  grid-column-end: -3;
+}
+
+.menu_type_link {
+  align-self: start;
+  grid-row-start: 1;
+  grid-column-start: -1;
+  grid-column-end: -2;
+}
+
+.menu__link_type_footer {
+  color: #fff;
+}
+
+.menu_type_footer {
+  align-self: start;
+}
+
+.menu__links_type_footer {
+  padding-right: 0;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.menu__cell_type_footer {
+  margin-right: 0;
+  margin-bottom: 20px;
 }
