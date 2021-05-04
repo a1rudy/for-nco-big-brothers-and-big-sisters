@@ -3,8 +3,8 @@
   display: flex;
   align-items: start;
   justify-content: space-between;
-  box-sizing: border-box;
   padding: 40px 75px 80px;
+  box-sizing: border-box;
 }
 
 .header__logo {
@@ -23,25 +23,33 @@
   align-self: center;
 }
 
+.menu__cell {
+  margin-right: 30px;
+}
+
+.menu__cell:last-child {
+  margin-right: 0;
+}
+
 .menu__links {
   list-style: none;
   padding-left: 0;
   display: flex;
+  margin: 0;
 }
 
 .menu__link {
   text-shadow: 0px 4px 5px rgba(0, 0, 0, .3);
-  margin-right: 30px;
   text-decoration: none;
   color: black;
 }
 
-.menu__link:hover {
-  color: blue;
-}
-
 .buttons-wrap {
   align-self: center;
+}
+
+.menu__cell_type_footer:last-child {
+  margin-bottom: 0;
 }
 
 .buttons-wrap::after {
@@ -59,6 +67,7 @@
 .search-button {
   width: 30px;
   height: 30px;
+  background-color: #fff;
   border: none;
   margin: auto;
   cursor: pointer;
@@ -75,7 +84,7 @@
   border: none;
   margin: auto;
   cursor: pointer;
-  background-image: url(../../images/header/search-logo.svg);
+  background-image: url(../../images/header/accaunt-logo.svg);
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -103,7 +112,7 @@
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1200px) {
   .burger-button {
     display: block;
     width: 30px;
@@ -124,19 +133,19 @@
    }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1200px) {
   .buttons-wrap::after {
     display: none;
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1200px) {
   .account-button {
     display: none;
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1200px) {
   .menu {
     width: 100%;
     position: fixed;
