@@ -146,7 +146,7 @@
 }
 
 @media (max-width: 1200px) {
-  .menu {
+  .menu_media_1200 {
     width: 100%;
     position: fixed;
     top:52px;
@@ -161,7 +161,7 @@
     visibility: visible;
     right: 0;
   }
-  .menu__links {
+  .menu__links_media_1200 {
     flex-direction: column;
   }
 }
