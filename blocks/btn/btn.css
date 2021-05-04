@@ -18,13 +18,12 @@
   background-color: #A7A6A6;
 }
 
-.btn:focus {
+.btn_active {
   color: #fff;
   background-color: #000;
 }
 
-.btn:focus:hover {
-  color: #fff;
+.btn_active:hover {
   background-color: #2E2468;
 }
 
@@ -34,5 +33,65 @@
     font-size: 12px;
     line-height: 17px;
     padding: 11px 15px;
+  }
+}
+.btn_blue {
+  color: #224CFF;
+  border-color: #224CFF;
+}
+
+.btn_blue:hover {
+  background-color: #C8D1FF;
+}
+
+.btn_blue_active {
+  color: #fff;
+  background-color: #224CFF;
+}
+
+.btn_blue_active:hover  {
+  background-color: #2E2468;
+}
+
+.btn_rubric {
+  font-family: PT Root UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  color: #464646;
+  padding: 2px 7px;
+  background-color: #F3F2F2;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-width: 0;
+}
+.btn_rubric:hover {
+  color:#000;
+}
+
+.btn_dots {
+  width: 48px;
+  height: 48px;
+  background-image: url('../../../images/tasks/dots.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+  
+}
+
+.btn_dots_active {
+  background-image: url('../../../images/tasks/dots_white.svg');
+  background-color: #224CFF;
+}
+
+.btn_dots_active:hover {
+  background-color: #2E2468;
+}
+
+@media(max-width:750px) {
+  .btn_dots {
+    width: 40px;
+    height: 40px;
   }
 }
