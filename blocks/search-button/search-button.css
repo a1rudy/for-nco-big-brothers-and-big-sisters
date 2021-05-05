@@ -1,0 +1,12 @@
+.search-button {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: none;
+  margin: auto;
+  cursor: pointer;
+  background-image: url(../../images/header/search-logo.svg);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,43 @@
+.history-card {
+    padding: 30px;
+}
+  
+.history-card__container {
+  max-height: 162px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-color: #E8E6E6 #ffffff00;
+  scrollbar-width: thin;
+}
+
+.history-card__info {
+  margin-bottom: 10px;
+}
+
+.history-card__container::-webkit-scrollbar {
+  width: 5px;
+  background-color: #ffffff00;
+}
+
+.history-card__container::-webkit-scrollbar-thumb {
+  background: #E8E6E6;
+  border-radius: 5px;
+}
+
+.history-card__container::-webkit-scrollbar-thumb:hover {
+  background-color: #4e4e4e;
+}
+
+@media(max-width:750px) {
+  .history-card {
+    padding: 30px 15px;
+  }
+
+  .history-card__text {
+    margin-top: 5px;
+  }
+
+  .history-card__container {
+    max-height: 128px;
+  }
+}

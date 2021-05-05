@@ -11,11 +11,6 @@
 @import url('../../blocks/btn/btn.css');
 
 
-/* Линки в меню */
-
-@import url('../../blocks/menu/__link/menu__link.css');
-@import url('../../blocks/menu/__link/_active/menu__link_active.css');
-
 /* Стиль для дат */
 @import url('../../blocks/date/date.css');
 
@@ -30,7 +25,7 @@
 
 @import url('../../blocks/ivent-card/ivent-card.css');
 @import url('../../blocks/article-card/article-card.css');
-@import url('../../blocks/history-card/history-card.css');
+@import url('../../blocks/annotation-card/annotation-card.css');
 @import url('../../blocks/video-card/video-card.css');
 @import url('../../blocks/book-card/book-card.css');
 @import url('../../blocks/quot-card/quot-card.css');

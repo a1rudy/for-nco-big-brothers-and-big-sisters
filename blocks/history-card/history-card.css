@@ -1,43 +1,45 @@
 .history-card {
-  padding: 30px;
+  max-width: 870px;
+  background-image: url('../../images/intro-section/history-card.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 30px;
+  position: relative;
 }
 
-.history-card__container {
-  max-height: 162px;
-  overflow-y: auto;
-	overflow-x: hidden;
-  scrollbar-color: #E8E6E6 #ffffff00;
-  scrollbar-width: thin;
+.history-card__overlay {
+  text-decoration: none;
+  border-radius: 30px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .6);
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
-.history-card__info {
-  margin-bottom: 10px;
+.history-card__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 30px;
+  z-index: 2;
 }
 
-.history-card__container::-webkit-scrollbar {
-  width: 5px;
-  background-color: #ffffff00;
-}
-
-.history-card__container::-webkit-scrollbar-thumb {
-  background: #E8E6E6;
-  border-radius: 5px;
-}
-
-.history-card__container::-webkit-scrollbar-thumb:hover {
-  background-color: #4e4e4e;
-}
-
-@media(max-width:750px) {
-  .history-card {
-    padding: 30px 15px;
-  }
-
-  .history-card__text {
-    margin-top: 5px;
-  }
-
-  .history-card__container {
-    max-height: 128px;
+@media (max-width: 1200px) {
+  .history-card__title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 23px;
+    max-width: 500px;
   }
 }
