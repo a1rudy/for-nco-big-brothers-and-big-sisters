@@ -1,0 +1,21 @@
+.buttons-wrap {
+  align-self: center;
+}
+
+.buttons-wrap::after {
+  height: 1px;
+  width: 20px;
+  content: '';
+  display: block;
+  transform: rotate(90deg);
+  background-color: lightgray;
+  position: relative;
+  left: 37px;
+  bottom: 18px;
+}
+
+@media (max-width: 1200px) {
+  .buttons-wrap::after {
+    display: none;
+  }
+}

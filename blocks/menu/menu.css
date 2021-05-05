@@ -1,0 +1,147 @@
+.menu {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  align-self: center;
+}
+
+.menu__cell {
+  margin-right: 30px;
+}
+
+.menu__cell:last-child {
+  margin-right: 0;
+}
+
+.menu__links {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  margin: 0;
+}
+
+.menu__link {
+  text-shadow: 0px 4px 5px rgba(0, 0, 0, .3);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+}
+  
+.menu_type_hover:hover {
+  color: #224CFF;
+}
+
+.menu_type_footer {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: -2;
+  grid-column-end: -3;
+  align-self: start;
+}
+
+.menu_type_link {
+  align-self: start;
+  grid-row-start: 1;
+  grid-column-start: -1;
+  grid-column-end: -2;
+}
+
+.menu__links-block {
+  margin-bottom: 20px;
+}
+
+.menu__cell_type_footer {
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+
+.menu__cell_type_footer:last-child {
+  margin-bottom: 0;
+}
+
+.menu__links_type_footer {
+  padding-right: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.menu__link_type_footer {
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .menu_media_1200 {
+    width: 100%;
+    position: fixed;
+    top:52px;
+    visibility: hidden;
+    height: calc(100% - 52px);
+    right: -100%;
+    transition-duration: .5s;
+    background-color:#fff;
+    border-radius: 0px 0px 30px 30px;
+  }
+
+  .menu__links_media_1200 {
+    flex-direction: column;
+  }
+  
+  .menu_active {
+    visibility: visible;
+    right: 0;
+  }
+}
+
+@media (max-width: 1100px) {
+
+  .menu_type_footer {
+    align-self: center;
+    border-bottom: 1px solid #C8D1FF;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  .menu_type_link {
+    align-self: center;
+    margin-bottom: 30px;
+  }
+
+  .menu__links-block {
+    display: flex;
+    margin-right: 15px;
+  }
+
+  .menu__cell_type_footer {
+    margin-top: 0;
+    margin-right: 15px;
+    margin-bottom: 0;
+  }
+
+  .menu__links_type_footer {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 800px) {
+  .menu_type_link {
+    margin-bottom: 15px;
+  }
+
+  .menu__links_type_footer {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .menu__links-block {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
