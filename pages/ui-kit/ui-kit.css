@@ -28,21 +28,44 @@
 /* Стили для карточек */
 @import url('../../blocks/card/card.css');
 
+@import url('../../blocks/ivent-card/ivent-card.css');
+@import url('../../blocks/article-card/article-card.css');
+@import url('../../blocks/history-card/history-card.css');
+@import url('../../blocks/video-card/video-card.css');
+@import url('../../blocks/book-card/book-card.css');
+@import url('../../blocks/quot-card/quot-card.css');
 
-@import url('../../blocks/ivent/ivent.css');
-@import url('../../blocks/article/article.css');
 
 @import url('../../blocks/header/header.css');
 
 @import url('../../blocks/footer/footer.css');
 
 
-.section-ivent{
-  width: 570px; 
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-ivent-card{
+  width: 570px;
+}
+.section-card {
+  width: 420px;
+}
+
+.quot-section {
+  width: 870px;
 }
 
 @media (max-width: 750px) {
-  .section-ivent{
+  .section-ivent-card{
     width: 290px; 
+  }
+  .section-card {
+    width: 290px;
+  }
+  .quot-section {
+    width: 290px;
   }
 }
