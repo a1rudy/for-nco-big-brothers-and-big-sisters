@@ -37,6 +37,8 @@
 @import url('../../blocks/footer/footer.css');
 
 
+@import url('../../blocks/history-card/history-card.css');
+
 .section-ivent{
   width: 570px; 
 }
