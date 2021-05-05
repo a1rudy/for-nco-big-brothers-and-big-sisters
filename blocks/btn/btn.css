@@ -1,5 +1,5 @@
 .btn {
-  font-family: Proto Grotesk Web Light;
+  font-family: 'Proto Grotesk Light', 'Arial', sans-serif;
   font-style: normal; 
   font-weight: 300;
   font-size: 15px;
@@ -54,9 +54,6 @@
 }
 
 .btn_rubric {
-  font-family: PT Root UI;
-  font-style: normal;
-  font-weight: normal;
   font-size: 10px;
   line-height: 13px;
   color: #464646;

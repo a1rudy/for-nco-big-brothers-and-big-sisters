@@ -1,7 +1,4 @@
 .date {
-  font-family: PT Root UI;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 19px;
   letter-spacing: 0.2px;
@@ -19,7 +16,7 @@
 }
 
 .date__day{
-  font-family: Proto Grotesk Web Light;
+  font-family: 'Proto Grotesk Light', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 100px;
