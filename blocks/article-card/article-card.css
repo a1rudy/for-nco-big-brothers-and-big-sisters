@@ -11,6 +11,8 @@
 .article-card__title {
   text-align: center;
   margin: 5px 0;
+  max-height: 90px;
+  overflow: hidden;
 }
 
 .article-card__photo {
@@ -23,12 +25,28 @@
   margin-bottom: 15px;
 }
 
+.article-card__info {
+  margin-bottom: 40px;
+}
+
 @media (max-width: 750px) {
   .article-card {
     padding: 15px;
   }
 
+  .article-card__rubric {
+    margin-bottom: 0;
+  }
+
+  .article-card__title {
+    max-height: 70px;
+  }
   .article-card__photo {
+    margin: 15px 0;
+  }
+
+  .article-card__info {
     margin-bottom: 15px;
   }
+  
 }

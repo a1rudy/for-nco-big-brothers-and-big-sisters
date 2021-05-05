@@ -4,8 +4,10 @@
 }
 
 .quot-card__title {
-  margin-bottom: 70px;
+  margin-bottom: 72px;
   text-align: center;
+  max-height: 250px;
+  overflow: hidden;
 }
 
 @media (max-width: 750px) {
@@ -14,6 +16,7 @@
   }
 
   .quot-card__title {
-    margin-bottom: 65px;
+    margin-bottom: 69px;
+    max-height: 182px;
   }
 }
