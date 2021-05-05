@@ -30,7 +30,6 @@
   font-weight: 300;
   font-size: 23px;
   line-height: 30px;
-  text-align: center;
 }
 
 .card__title:hover {
@@ -120,5 +119,4 @@
     font-size: 12px;
     line-height: 17px;
   }
-  
 }

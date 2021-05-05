@@ -18,6 +18,9 @@
   align-items:center
 }
 
+.book-card__title {
+  text-align: center;
+}
 .book-card__split {
   width: 67px;
   font-size: 0;
