@@ -40,14 +40,22 @@
 @import url('../../blocks/history-card/history-card.css');
 @import url('../../blocks/video-card/video-card.css');
 @import url('../../blocks/book-card/book-card.css');
+@import url('../../blocks/quot-card/quot-card.css');
 
-
-
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .section-ivent{
-  width: 570px; 
+  width: 570px;
 }
 .section-card {
   width: 420px;
+}
+
+.quot-section {
+  width: 870px;
 }
 
 @media (max-width: 750px) {
@@ -55,6 +63,9 @@
     width: 290px; 
   }
   .section-card {
+    width: 290px;
+  }
+  .quot-section {
     width: 290px;
   }
 }

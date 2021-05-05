@@ -3,14 +3,9 @@
   align-items: center;
 }
 
-@media (max-width: 750px) {
-  .article {
-    padding: 15px;
-  }
 
-  .article__info {
-    margin-bottom: 15px;
-  }
+.article__rubric {
+  margin-bottom: 10px;
 }
 
 .article__title {
@@ -21,9 +16,19 @@
 .article__photo {
   width: 100%;
   border-radius: 15px;
+  margin: 40px 0 15px;
+}
+
+.article__link {
   margin-bottom: 15px;
 }
 
-.article__info {
-  margin-bottom: 40px;
+@media (max-width: 750px) {
+  .article {
+    padding: 15px;
+  }
+
+  .article__photo {
+    margin-bottom: 15px;
+  }
 }
