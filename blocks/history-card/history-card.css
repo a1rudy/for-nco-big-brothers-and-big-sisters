@@ -10,8 +10,8 @@
   scrollbar-width: thin;
 }
 
-.history-card__text {
-  margin-top: 10px;
+.history-card__info {
+  margin-bottom: 10px;
 }
 
 .history-card__container::-webkit-scrollbar {

@@ -38,13 +38,23 @@
 
 
 @import url('../../blocks/history-card/history-card.css');
+@import url('../../blocks/video-card/video-card.css');
+@import url('../../blocks/book-card/book-card.css');
+
+
 
 .section-ivent{
   width: 570px; 
+}
+.section-card {
+  width: 420px;
 }
 
 @media (max-width: 750px) {
   .section-ivent{
     width: 290px; 
+  }
+  .section-card {
+    width: 290px;
   }
 }
