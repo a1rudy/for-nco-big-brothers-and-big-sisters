@@ -65,6 +65,11 @@
   background-color: #2E2468;
 }
 
+.btn_disabled {
+  color: #A7A6A6;
+  border-color: #A7A6A6;
+}
+
 @media (max-width: 750px) {
   .btn {
     font-size: 12px;

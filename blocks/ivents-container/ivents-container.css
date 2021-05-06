@@ -1,0 +1,10 @@
+.ivents-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 570px);
+  gap: 30px;
+  justify-content: center;
+  list-style: none;
+  padding: 40px 75px 120px;
+  margin: 0;
+  width: 100%;
+}

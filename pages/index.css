@@ -14,7 +14,7 @@
 
 @import url('../blocks/main/main.css');
 @import url('../blocks/intro-section/intro-section.css');
-@import url('../blocks/intro-card.css/intro-card.css');
+@import url('../blocks/intro-card/intro-card.css');
 @import url('../blocks/history-card/history-card.css');
 
 @import url('../blocks/footer/footer.css');

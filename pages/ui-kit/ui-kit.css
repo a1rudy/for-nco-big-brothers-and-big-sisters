@@ -1,36 +1,11 @@
+/* Главные стили */
 @import url('../../vendor/normalize.css');
-
 @import url('../../vendor/fonts.css');
 
 @import url('../../blocks/body/body.css');
 @import url('../../blocks/page/page.css');
 
-
-/* стили для кнопок */
-
-@import url('../../blocks/btn/btn.css');
-
-
-/* Стиль для дат */
-@import url('../../blocks/date/date.css');
-
-
-/* Стили для заголовков, текста, кликабельных элементов и подписи */
-
-@import url('../../blocks/page/__title/page__title.css');
-@import url('../../blocks/section/__title/section__title.css');
-
-/* Стили для карточек */
-@import url('../../blocks/card/card.css');
-
-@import url('../../blocks/ivent-card/ivent-card.css');
-@import url('../../blocks/article-card/article-card.css');
-@import url('../../blocks/annotation-card/annotation-card.css');
-@import url('../../blocks/video-card/video-card.css');
-@import url('../../blocks/book-card/book-card.css');
-@import url('../../blocks/quot-card/quot-card.css');
-
-
+/* Стили Header */
 @import url('../../blocks/header/header.css');
 @import url('../../blocks/burger-button/burger-button.css');
 @import url('../../blocks/menu/menu.css');
@@ -39,10 +14,24 @@
 @import url('../../blocks/account-button/account-button.css');
 @import url('../../blocks/margin-left/margin-left.css');
 
+/* стили для кнопок */
+@import url('../../blocks/btn/btn.css');
+
+/* Стили для заголовков, текста, кликабельных элементов и подписи */
+@import url('../../blocks/section/section.css');
+
+/* Стили для карточек */
+@import url('../../blocks/card/card.css');
+@import url('../../blocks/ivent-card/ivent-card.css');
+@import url('../../blocks/article-card/article-card.css');
+@import url('../../blocks/annotation-card/annotation-card.css');
+@import url('../../blocks/video-card/video-card.css');
+@import url('../../blocks/book-card/book-card.css');
+@import url('../../blocks/quot-card/quot-card.css');
+
+/* Стили Footer*/
 @import url('../../blocks/footer/footer.css');
 @import url('../../blocks/donate-button/donate-button.css');
-
-
 
 .main {
   display: flex;
