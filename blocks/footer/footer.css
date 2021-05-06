@@ -64,7 +64,7 @@
   color: #fff;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
 
   .footer {
     padding: 40px 0 30px;
@@ -109,7 +109,7 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 770px) {
 
   .footer {
     padding: 40px 0 30px;

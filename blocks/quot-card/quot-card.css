@@ -1,16 +1,39 @@
 .quot-card {
   align-items: center;
-  padding: 120px 100px 30px;
+  padding: 7% 22.5% 2%;
 }
 
 .quot-card__title {
+  font-size: 44px;
+  line-height: 50px;
   margin-bottom: 72px;
   text-align: center;
-  max-height: 250px;
   overflow: hidden;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1600px) {
+  .quot-card {
+    padding: 10.5% 8.5% 3%;
+  }
+
+  .quot-card__title {
+    margin-bottom: 71px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .quot-card {
+    padding: 4.5% 5.5% 2%;
+  }
+
+  .quot-card__title {
+    font-size: 19px;
+    line-height: 23px;
+    margin-bottom: 181px;
+  }
+}
+
+@media (max-width: 770px) {
   .quot-card {
     padding: 30px 15px 15px;
   }

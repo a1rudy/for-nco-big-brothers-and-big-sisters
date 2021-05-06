@@ -84,7 +84,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .intro-card {
     border-radius: 30px;
   }
@@ -108,7 +108,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .intro-card__text {
     max-width: 260px;
   }

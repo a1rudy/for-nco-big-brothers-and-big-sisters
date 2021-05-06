@@ -11,14 +11,14 @@
 .article-card__title {
   text-align: center;
   margin: 5px 0;
-  max-height: 90px;
   overflow: hidden;
 }
 
 .article-card__photo {
   width: 100%;
-  border-radius: 15px;
   margin: 40px 0 15px;
+  border-radius: 15px;
+  object-fit: cover;
 }
 
 .article-card__link {
@@ -28,6 +28,20 @@
 .article-card__info {
   margin-bottom: 40px;
 }
+
+@media (max-width: 1440px) {
+  .article-card__photo {
+    margin-top: 70px;
+    min-height: 62%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .article-card__photo {
+    margin-top: 62px;
+  }
+}
+
 
 @media (max-width: 750px) {
   .article-card {

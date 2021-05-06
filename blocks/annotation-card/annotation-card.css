@@ -1,9 +1,9 @@
 .annotation-card {
-    padding: 30px;
+  padding: 47px 30px 69px;
 }
   
 .annotation-card__container {
-  max-height: 162px;
+  height: 645px;
   overflow-y: auto;
   overflow-x: hidden;
   scrollbar-color: #E8E6E6 #ffffff00;
@@ -11,7 +11,7 @@
 }
 
 .annotation-card__info {
-  margin-bottom: 10px;
+  margin-bottom: 105px;
 }
 
 .annotation-card__container::-webkit-scrollbar {
@@ -28,9 +28,20 @@
   background-color: #4e4e4e;
 }
 
-@media(max-width:750px) {
+@media(max-width: 1440px) {
+  .annotation-card__container {
+    height: 465px;
+  }
+}
+
+@media(max-width: 1200px) {
+
   .annotation-card {
     padding: 30px 15px;
+  }
+
+  .annotation-card__info {
+    margin-bottom: 5px;
   }
 
   .annotation-card__text {
