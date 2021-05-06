@@ -16,7 +16,7 @@ time, mark, audio, video, main {
 .page {
   min-width: 320px;
   max-width: 1920px;
-  background-color: #fff;
+  background-color: #F3F2F2;
   margin: auto;
   display: flex;
   flex-direction: column;
