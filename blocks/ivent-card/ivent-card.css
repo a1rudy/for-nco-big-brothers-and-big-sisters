@@ -57,6 +57,9 @@
   margin: 0;
 }
 
+.ivent-card__text {
+  padding: 5px 0 30px;
+}
 
 .ivent-card__record-container {
   display: grid;
@@ -103,7 +106,12 @@
     padding: 5px 0;
   }
 
+  .ivent-card__text {
+    padding: 0 0 30px;
+  }
+
   .ivent-card__record-container {
     gap: 10px;
   }
 }
+

@@ -120,3 +120,11 @@
     line-height: 17px;
   }
 }
+
+@media (max-width: 1200px) {
+  .card__text {
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+  }
+}
