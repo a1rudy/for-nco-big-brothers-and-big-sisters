@@ -1,33 +1,48 @@
 .header {
   min-width: 100%;
-  display: flex;
-  align-items: start;
-  justify-content: space-between;
-  padding: 35px 75px 75px;
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  padding: 39px 75px 77px;
   box-sizing: border-box;
 }
 
 .header__logo {
-  width: 183px; 
+  font-family: 'Proto Grotesk Light', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #224CFF;
 }
 
 .header__logo:hover {
-  content: url(../../images/header/logo-hover.svg)
+  color: #2E2468;
+}
+
+@media (max-width: 1440px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 39px 135px 77px;
+  }
 }
 
 @media (max-width: 1200px) {
   .header {
     flex-direction: row-reverse;
-    padding: 30px 117px;
+    padding: 20px 127px 30px;
   }
 
   .header__logo {
-    width: 130px;
+    font-size: 17.5px;
+    line-height: 17px;
   }
 }
 
 @media (max-width: 500px) {
   .header {
-    padding: 10px;
+    padding: 10px 15px 10px;
   }
 }

@@ -2,11 +2,19 @@
   width: 30px;
   height: 30px;
   border: none;
-  margin: auto;
+  margin: 0;
+  padding: 0;
   cursor: pointer;
   background-color: #ffffff00;
   background-image: url(../../images/header/search-logo.svg);
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 500px) {
+  .search-button {
+    width: 20px;
+    height: 20px;
+  }
 }
