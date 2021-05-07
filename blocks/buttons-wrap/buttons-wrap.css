@@ -1,5 +1,5 @@
 .buttons-wrap {
-  align-self: center;
+  justify-self: end;
 }
 
 .buttons-wrap::after {
@@ -12,6 +12,7 @@
   position: relative;
   left: 37px;
   bottom: 18px;
+  
 }
 
 @media (max-width: 1200px) {
