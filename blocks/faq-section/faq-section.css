@@ -1,0 +1,14 @@
+.faq-section {
+  max-height: min-content;
+  display: grid;
+  grid-template-columns: fit-content(420px) 1fr;
+  grid-template-rows: repeat(3, min-content);
+  gap: 30px;
+}
+
+@media (max-width: 870px) {
+  .faq-section {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, min-content);
+  }
+}

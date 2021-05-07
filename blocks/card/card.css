@@ -32,6 +32,11 @@
   line-height: 30px;
 }
 
+.card__text-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
 .card__title:hover {
   color:#2E2468;
 }
@@ -96,6 +101,7 @@
   padding: 2px 7px;
   background-color: #F3F2F2;
   transition: all .2s ease .23s;
+  opacity: .6;
 }
 
 @media (max-width: 1200px) {
@@ -113,7 +119,6 @@
     font-size: 15px;
     line-height: 21px;
   }
-
 
   .card__link {
     font-size: 12px;
