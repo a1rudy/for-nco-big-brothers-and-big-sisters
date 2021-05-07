@@ -155,7 +155,7 @@
       </main>
 
       <!-- попап регистрации на ивент -->
-      <section class="popup popup_ivent popup_opened">
+      <section class="popup popup_ivent">
         <div class="popup__container">
           <article class="card ivent-card card_theme_white">
             <div class="ivent-card__header-container">
@@ -183,7 +183,18 @@
         </div>
       </section>
 
-      
+      <!-- попап подтверждения регистрации на ивент -->
+      <section class="popup popup_ivent-confirmation popup_opened">
+        <div class="popup__container popup__container_ivent-confirmation">
+          <h2 class="card__title ivent-card__title ivent-card__title_type_confirmation">Подтвердить запись на мероприятие</h2>
+          <h2 class="card__title ivent-card__title ivent-card__title_type_confirmation">«Субботний meet up: учимся проходить интервью» 5 декабря с 12:00–14:00</h2>
+          <div class="ivent-card__action-container ivent-card__action-container_type_confirmation">
+            <button class="btn btn_blue btn_blue_type_confirmation" type="button">Подтвердить запись</button> 
+            <button class="btn" type="button">Отменить</button> 
+          </div>
+          <button class="popup__btn popup__btn_close" type="button" aria-label="Закрыть окно редактирования"></button>
+        </div>
+      </section>
 
       <footer class="footer">
         <div class="footer__container">

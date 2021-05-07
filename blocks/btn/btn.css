@@ -46,6 +46,10 @@
   background-color: #2E2468;
 }
 
+.btn_blue_type_confirmation {
+  margin-right: 15px;
+}
+
 .btn_dots {
   width: 48px;
   height: 48px;
@@ -80,5 +84,9 @@
   .btn_dots {
     width: 40px;
     height: 40px;
+  }
+
+  .btn_blue_type_confirmation {
+    margin-right: 10px;
   }
 }
