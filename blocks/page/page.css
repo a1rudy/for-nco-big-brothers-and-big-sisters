@@ -46,7 +46,7 @@ time, mark, audio, video, main {
   line-height: 80px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1200px) {
   .page__title {
     font-size: 37px;
     line-height: 39px;

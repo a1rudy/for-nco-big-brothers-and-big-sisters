@@ -4,7 +4,21 @@
   gap: 30px;
   justify-content: center;
   list-style: none;
-  padding: 40px 75px 120px;
+  padding: 40px 15px 120px;
   margin: 0;
-  width: 100%;
+  width: calc(100% - 30px);
+}
+
+@media(max-width: 1200px) {
+  .ivents-container {
+    grid-template-columns: repeat(auto-fit, 370px);
+    padding: 30px 15px 100px;
+  }
+}
+
+@media(max-width: 770px) {
+  .ivents-container {
+    grid-template-columns: repeat(auto-fit, 290px);
+    padding: 15px 15px 50px;
+  }
 }

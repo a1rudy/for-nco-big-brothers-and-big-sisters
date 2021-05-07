@@ -5,6 +5,7 @@
 .ivent-card__header-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  grid-template-rows: 19px 120px;
   gap: 10px 30px;
   align-content: start;
 }
@@ -52,8 +53,8 @@
 
 .ivent-card__info-container {
   list-style: none;
-  margin: 50px 0 30px;
-  padding: 0;
+  padding: 30px 0;
+  margin: 0;
 }
 
 
@@ -64,13 +65,14 @@
   gap: 15px;
 }
 
-@media(max-width:750px) {
+@media(max-width:1200px) {
   .ivent-card {
     padding: 30px 15px;
   }
 
   .ivent-card__header-container {
     grid-template-columns: 2fr 1.5fr 2fr 2fr;
+    grid-template-rows: 17px 120px;
     gap: 5px 10px;
   }
   
@@ -92,6 +94,11 @@
   .ivent-card__title {
     grid-column: 1/4;
   }
+
+  .ivent-card__info-container {
+    padding-top: 23px;
+  }
+
   .ivent-card__info-box {
     padding: 5px 0;
   }

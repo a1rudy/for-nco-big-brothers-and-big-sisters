@@ -70,7 +70,7 @@
   border-color: #A7A6A6;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1200px) {
   .btn {
     font-size: 12px;
     line-height: 17px;

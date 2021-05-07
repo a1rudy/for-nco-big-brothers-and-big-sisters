@@ -99,7 +99,7 @@
   transition: all .2s ease .23s;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1200px) {
   .card__title {
     font-size: 19px;
     line-height: 23px;
