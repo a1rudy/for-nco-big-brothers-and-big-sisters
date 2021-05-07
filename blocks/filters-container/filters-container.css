@@ -1,0 +1,19 @@
+.filters-container {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 40px 0;
+  justify-content:center;
+}
+
+@media (max-width: 1200px) {
+  .filters-container {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 770px) {
+  .filters-container {
+    padding-bottom: 15px;
+  }
+}

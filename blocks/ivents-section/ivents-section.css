@@ -1,0 +1,12 @@
+.ivents-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+@media(max-width: 770px) {
+  .ivents-section {
+    padding-top: 7px;
+  }
+}

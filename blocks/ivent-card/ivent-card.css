@@ -5,8 +5,30 @@
 .ivent-card__header-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  grid-template-rows: 19px 120px;
   gap: 10px 30px;
   align-content: start;
+}
+
+.ivent-card__date-month {
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-transform: lowercase;
+  margin: 0;
+  text-align: right;
+}
+
+.ivent-card__date-day {
+  font-family: 'Proto Grotesk Light', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 100px;
+  line-height: 100px;
+  letter-spacing: -2px;
+  margin: 0;
+  text-align: right;
 }
 
 .ivent-card__action-container {
@@ -31,8 +53,8 @@
 
 .ivent-card__info-container {
   list-style: none;
-  margin: 50px 0 30px;
-  padding: 0;
+  padding: 30px 0;
+  margin: 0;
 }
 
 
@@ -43,26 +65,40 @@
   gap: 15px;
 }
 
-@media(max-width:750px) {
+@media(max-width:1200px) {
   .ivent-card {
     padding: 30px 15px;
   }
 
   .ivent-card__header-container {
     grid-template-columns: 2fr 1.5fr 2fr 2fr;
+    grid-template-rows: 17px 120px;
     gap: 5px 10px;
   }
   
   .ivent-card__info {
     grid-column: 1/3;
   }
-  .ivent-card__date {
+
+  .ivent-card__date-month {
+    font-size: 12px;
+    line-height: 17px;
     grid-column: -3/-1;
+  }
+
+  .ivent-card__date-day {
+    font-size: 60px;
+    line-height: 60px;
   }
 
   .ivent-card__title {
     grid-column: 1/4;
   }
+
+  .ivent-card__info-container {
+    padding-top: 23px;
+  }
+
   .ivent-card__info-box {
     padding: 5px 0;
   }
