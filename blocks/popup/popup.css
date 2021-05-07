@@ -21,12 +21,11 @@
 .popup__container {
   position: relative;
   background-color: #fff;
-  width: 770px;
-  height: 670px;
+  width: 630px;
+  height: 630px;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
   border-radius: 30px;
   padding: 20px 70px;
-  box-sizing: border-box;
 }
 
 .popup__btn {
@@ -62,8 +61,8 @@
 
 @media(max-width: 1200px) {
   .popup__container {
-    width: 570px;
-    height: 610px;
+    width: 460px;
+    height: 511px;
     padding: 20px 55px;
   }
 }
