@@ -29,7 +29,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1350px) {
   .header {
     flex-direction: row-reverse;
     padding: 20px 127px 30px;
