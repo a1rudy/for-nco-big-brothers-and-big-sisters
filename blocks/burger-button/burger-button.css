@@ -3,7 +3,7 @@
   align-self: center;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1350px) {
   .burger-button {
     display: block;
     width: 30px;

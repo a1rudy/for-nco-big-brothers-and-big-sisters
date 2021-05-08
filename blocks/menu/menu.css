@@ -76,8 +76,8 @@
   color: #fff;
 }
 
-@media (max-width: 1200px) {
-  .menu_media_1200 {
+@media (max-width: 1350px) {
+  .menu_media_1350 {
     width: 100%;
     position: fixed;
     top:52px;
@@ -89,7 +89,7 @@
     border-radius: 0px 0px 30px 30px;
   }
 
-  .menu__links_media_1200 {
+  .menu__links_media_1350 {
     flex-direction: column;
   }
   
