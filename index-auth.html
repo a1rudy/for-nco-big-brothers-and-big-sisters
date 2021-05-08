@@ -232,6 +232,55 @@
         </div>
       </footer>
 
+      <section class="popup popup-login">
+        <!-- popup_opened -->
+        <div class="popup__container popup-login__container">
+          <div class="popup-login__content-wrap">
+            <h2 class="popup-login__title">Вход</h2>
+            <p class="popup-login__text">Вход в личный кабинет доступен наставникам программы «Старшие Братья Старшие Сёстры».</p>
+            <p class="popup-login__text">Пожалуйста, введите логин и пароль из письма. Если вам не приходило письмо, свяжитесь с вашим куратором.</p>
+            <form class="popup-login__form" name="popup-form-login" novalidate>
+              <div class="popup-login__form-wrap">
+                <input class="popup-login__input popup-login__input_type_top" id="login-input" type="text" placeholder="Логин" name="login" minlength="2" maxlength="40" required>
+                <span class="popup-login__input-error name-input-error"></span>
+                <!-- popup__input-error_active -->
+              </div>
+              <div class="popup-login__form-wrap">
+                <input class="popup-login__input popup-login__input_type_bottom" id="password-input" type="text" placeholder="О себе" name="password" minlength="2" maxlength="200" required>
+                <!-- popup__input_type_error -->
+                <span class="popup-login__input-error password-input-error"></span>
+              </div>
+              <div class="popup-login__btn-wrap">
+                <a class="popup-login__link" href="#">Забыли пароль?</a>
+                <button class="btn popup__save-btn btn_disabled" type="submit"><span class="popup-login__btn-span">Войти</span></button>
+              </div>
+            </form>
+          </div>
+          <button class="popup__close-btn" type="button"></button>
+        </div>
+      </section>
+
+      <section class="popup popup_type_city">
+        <!-- popup_opened -->
+        <div class="popup__container popup-city__container">
+          <div class="popup-city__wrap">
+            <h2 class="popup-city__title">Выберите ваш город</h2>
+            <p class="popup-city__text">Москва</p>
+            <p class="popup-city__text">Санкт-Петербург</p>
+          </div>
+          <p class="popup-city__text">Алексин</p>
+          <p class="popup-city__text">Барнаул</p>
+          <p class="popup-city__text">Екатеринбург</p>
+          <p class="popup-city__text">Зубцов</p>
+          <p class="popup-city__text">Калининград</p>
+          <p class="popup-city__text">Киреевск</p>
+          <p class="popup-city__text">Коломна</p>
+          <p class="popup-city__text">Новомосковск</p>
+          <p class="popup-city__text">Орехово-Зуево</p>
+          <p class="popup-city__text">Тверь</p>
+          <p class="popup-city__text">Тула</p>
+        </div>
+      </section>
     </div>
   </body>
 </html>
