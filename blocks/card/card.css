@@ -32,9 +32,20 @@
   line-height: 30px;
 }
 
+.card__title_place_city-popup {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
 .card__text-wrap {
   display: flex;
   flex-direction: column;
+}
+
+.card__text-wrap_type_city {
+  border-bottom: .5px solid #A7A6A6;
+  margin-bottom: 10px;
 }
 
 .card__title:hover {
@@ -51,12 +62,20 @@
   margin-top: 0;
 }
 
+.card__text_type_city {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 .card__text_type_center {
   text-align: center;
 }
 
 .card__text_place_authorization-popup {
-  margin:15px 0;
+  margin: 15px 0;
   max-width: 550px;
 }
 

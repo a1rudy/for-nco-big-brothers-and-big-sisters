@@ -220,53 +220,51 @@
         </div>
       </footer>
 
-      <section class="popup popup-login">
+      <!-- попап авторизации-->
+      <section class="popup popup_authorization">
         <!-- popup_opened -->
-        <div class="popup__container popup-login__container">
-          <div class="popup-login__content-wrap">
-            <h2 class="popup-login__title">Вход</h2>
-            <p class="popup-login__text">Вход в личный кабинет доступен наставникам программы «Старшие Братья Старшие Сёстры».</p>
-            <p class="popup-login__text">Пожалуйста, введите логин и пароль из письма. Если вам не приходило письмо, свяжитесь с вашим куратором.</p>
-            <form class="popup-login__form" name="popup-form-login" novalidate>
-              <div class="popup-login__form-wrap">
-                <input class="popup-login__input popup-login__input_type_top" id="login-input" type="text" placeholder="Логин" name="login" minlength="2" maxlength="40" required>
-                <span class="popup-login__input-error name-input-error"></span>
-                <!-- popup__input-error_active -->
-              </div>
-              <div class="popup-login__form-wrap">
-                <input class="popup-login__input popup-login__input_type_bottom" id="password-input" type="text" placeholder="О себе" name="password" minlength="2" maxlength="200" required>
-                <!-- popup__input_type_error -->
-                <span class="popup-login__input-error password-input-error"></span>
-              </div>
-              <div class="popup-login__btn-wrap">
-                <a class="popup-login__link" href="#">Забыли пароль?</a>
-                <button class="btn popup__save-btn btn_disabled" type="submit"><span class="popup-login__btn-span">Войти</span></button>
-              </div>
-            </form>
-          </div>
-          <button class="popup__close-btn" type="button"></button>
+        <div class="popup__container popup__container_authorization">
+          <h2 class="card__title">Вход</h2>
+          <p class="card__text card__text_type_center card__text_place_authorization-popup">Вход в личный кабинет доступен наставникам программы «Старшие Братья Старшие Сёстры».</p>
+          <p class="card__text card__text_type_center card__text_place_authorization-popup">Пожалуйста, введите логин и пароль из письма. Если вам не приходило письмо, свяжитесь с вашим куратором.</p>
+          <form class="form form_authorization" name="authorization" novalidate>
+            <fieldset class="form__fieldset form__fieldset_authorization">
+              <label class="form__label">
+                <input class="form__input form__input_login" type="text" value="" placeholder="Логин" name="authorization-login" minlength="2" maxlength="40" required>
+                <span class="form__input-error authorization-login-error"></span>
+              </label>
+              <label class="form__label">
+                <input class="form__input form__input_password" type="password" value="" placeholder="Пароль" name="authorization-password" minlength="2" maxlength="200" required>
+                <span class="form__input-error authorization-password-error"></span>
+              </label>
+              <p class="card__info card__info_theme_dark-gray card__info_place_authorization-popup">Забыли пароль?</p>
+              <button class="btn btn_blue btn_disabled" type="submit" aria-label="Войти в профиль" disabled>Войти</button> 
+            </fieldset>
+          </form>
+          <button class="popup__btn popup__btn_close" type="button" aria-label="Закрыть окно авторизации"></button>
         </div>
       </section>
 
-      <section class="popup popup_type_city">
+      <!-- попап выбора города -->
+      <section class="popup popup_city">
         <!-- popup_opened -->
-        <div class="popup__container popup-city__container">
-          <div class="popup-city__wrap">
-            <h2 class="popup-city__title">Выберите ваш город</h2>
-            <p class="popup-city__text">Москва</p>
-            <p class="popup-city__text">Санкт-Петербург</p>
+        <div class="popup__container popup__container_city">
+          <div class="card__text-wrap card__text-wrap_type_city">
+            <h2 class="card__title card__title_place_city-popup card__text_type_center">Выберите ваш город</h2>
+            <p class="card__text card__text_type_city">Москва</p>
+            <p class="card__text card__text_type_city">Санкт-Петербург</p>
           </div>
-          <p class="popup-city__text">Алексин</p>
-          <p class="popup-city__text">Барнаул</p>
-          <p class="popup-city__text">Екатеринбург</p>
-          <p class="popup-city__text">Зубцов</p>
-          <p class="popup-city__text">Калининград</p>
-          <p class="popup-city__text">Киреевск</p>
-          <p class="popup-city__text">Коломна</p>
-          <p class="popup-city__text">Новомосковск</p>
-          <p class="popup-city__text">Орехово-Зуево</p>
-          <p class="popup-city__text">Тверь</p>
-          <p class="popup-city__text">Тула</p>
+          <p class="card__text card__text_type_city">Алексин</p>
+          <p class="card__text card__text_type_city">Барнаул</p>
+          <p class="card__text card__text_type_city">Екатеринбург</p>
+          <p class="card__text card__text_type_city">Зубцов</p>
+          <p class="card__text card__text_type_city">Калининград</p>
+          <p class="card__text card__text_type_city">Киреевск</p>
+          <p class="card__text card__text_type_city">Коломна</p>
+          <p class="card__text card__text_type_city">Новомосковск</p>
+          <p class="card__text card__text_type_city">Орехово-Зуево</p>
+          <p class="card__text card__text_type_city">Тверь</p>
+          <p class="card__text card__text_type_city">Тула</p>
         </div>
       </section>
 

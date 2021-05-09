@@ -38,6 +38,12 @@
   padding: 50px 100px;
 }
 
+.popup__container_city {
+  height: auto;
+  width: 400px;
+  padding: 50px 15px;
+}
+
 .popup__container_ivent-confirmation {
   display: flex;
   flex-direction: column;
@@ -110,6 +116,7 @@
 }
 
 @media (max-width: 770px) {
+  
   .popup__container {
     width: 290px;
     height: 630px;
@@ -125,6 +132,12 @@
     height: 546px;
     padding: 60px 15px 50px;
     box-sizing: border-box;
+  }
+
+  .popup__container_city {
+    height: auto;
+    width: 320px;
+    padding: 30px 15px 57px;
   }
 
   .popup__container_ivent-confirmation {
