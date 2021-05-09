@@ -28,66 +28,111 @@
         </div>
       </header>
       <main class="main-calendar">
-        <section class="section ivents-section ivents-section_hide">
-          <h1 class="page__title">Календарь</h1>
-          <ul class="filters-container">
-            <li><button class="btn btn_active" type="button">Декабря</button></li>
-            <li><button class="btn" type="button">Январь</button></li>
-          </ul>
-          <ul class="ivents-container">
+      <section class="section ivents-section">
+        <h1 class="page__title">Календарь</h1>
+        <ul class="filters-container">
+          <li><button class="btn btn_active" type="button">Декабря</button></li>
+          <li><button class="btn" type="button">Январь</button></li>
+        </ul>
+        <ul class="ivents-container">
+          <li>
+            <article class="card ivent-card card_theme_light-blue">
+              <div class="ivent-card__header-container">
+                <p class="card__info card__info_theme_dark-gray ivent-card__info">Волонтёры + дети</p>
+                <p class="ivent-card__date-month">Декабрь / Понедельник</p>
+                <h2 class="card__title ivent-card__title">Субботний meet up: учимся проходить интевью</h2>
+                <p class="ivent-card__date-day">05</p>
+              </div>
+              <ul class="ivent-card__info-container">
+                <li class="ivent-card__info-box"><p class="card__info">12:00–14:00</p></li>
+                <li class="ivent-card__info-box"><p class="card__info">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p></li>
+                <li class="ivent-card__info-box"><p class="card__info">Александра, +7 926 356-78-90</p></li>
+              </ul>
+              <div class="ivent-card__action-container">
+                <div class="ivent-card__record-container">
+                  <button class="btn btn_blue btn_blue_active" type="button" >Отменить запись</button>
+                  <p class="card__info card__info_hide">Осталось 5 мест</p>
+                </div> 
+                <button class="btn btn_blue btn_dots btn_dots_active" type="button"></button>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article class="card ivent-card card_theme_white">
+              <div class="ivent-card__header-container">
+                <p class="card__info card__info_theme_dark-gray ivent-card__info">Волонтёры + дети</p>
+                <p class="ivent-card__date-month">декабрь / среда</p>
+                <h2 class="card__title ivent-card__title">Ресурсная группа «Вовлечение в волонтёрство»</h2>
+                <p class="ivent-card__date-day">16</p>
+              </div>
+              <ul class="ivent-card__info-container">
+                <li class="ivent-card__info-box"><p class="card__info">12:00–14:00</p></li>
+                <li class="ivent-card__info-box"><p class="card__info">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p></li>
+                <li class="ivent-card__info-box"><p class="card__info">Александра, +7 926 356-78-90</p></li>
+              </ul>
+              <div class="ivent-card__action-container">
+                <div class="ivent-card__record-container">
+                  <button class="btn btn_blue btn_disabled" type="button" disabled>Записаться</button>
+                  <p class="card__info">Запись закрыта</p>
+                </div> 
+                <button class="btn btn_blue btn_dots" type="button"></button>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article class="card ivent-card card_theme_white">
+              <div class="ivent-card__header-container">
+                <p class="card__info card__info_theme_dark-gray ivent-card__info">Волонтёры + дети</p>
+                <p class="ivent-card__date-month">Декабрь / Понедельник</p>
+                <h2 class="card__title ivent-card__title">Занятие с выпускниками: как составить резюме</h2>
+                <p class="ivent-card__date-day">20</p>
+              </div>
+              <ul class="ivent-card__info-container">
+                <li class="ivent-card__info-box"><p class="card__info">12:00–14:00</p></li>
+                <li class="ivent-card__info-box"><p class="card__info">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p></li>
+                <li class="ivent-card__info-box"><p class="card__info">Александра, +7 926 356-78-90</p></li>
+              </ul>
+              <div class="ivent-card__action-container">
+                <div class="ivent-card__record-container">
+                  <button class="btn btn_blue" type="button">Записаться</button>
+                  <p class="card__info">Осталось 5 мест</p>
+                </div> 
+                <button class="btn btn_blue btn_dots" type="button"></button>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article class="card ivent-card card_theme_white">
+              <div class="ivent-card__header-container">
+                <p class="card__info card__info_theme_dark-gray ivent-card__info">Волонтёры + дети</p>
+                <p class="ivent-card__date-month">Декабрь / Понедельник</p>
+                <h2 class="card__title ivent-card__title">Субботний meet up: учимся проходить интевью</h2>
+                <p class="ivent-card__date-day">23</p>
+              </div>
+              <ul class="ivent-card__info-container">
+                <li class="ivent-card__info-box"><p class="card__info">12:00–14:00</p></li>
+                <li class="ivent-card__info-box"><p class="card__info">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p></li>
+                <li class="ivent-card__info-box"><p class="card__info">Александра, +7 926 356-78-90</p></li>
+              </ul>
+              <div class="ivent-card__action-container">
+                <div class="ivent-card__record-container">
+                  <button class="btn btn_blue" type="button">Записаться</button>
+                  <p class="card__info">Осталось 5 мест</p>
+                </div> 
+                <button class="btn btn_blue btn_dots" type="button"></button>
+              </div>
+            </article>
+
             <li>
-              <article class="card ivent-card card_theme_light-blue">
+              <article class="card ivent-card card_theme_white">
                 <div class="ivent-card__header-container">
                   <p class="card__info card__info_theme_dark-gray ivent-card__info">Волонтёры + дети</p>
                   <p class="ivent-card__date-month">Декабрь / Понедельник</p>
                   <h2 class="card__title ivent-card__title">Субботний meet up: учимся проходить интевью</h2>
-                  <p class="ivent-card__date-day">05</p>
-                </div>
-                <ul class="ivent-card__info-container">
-                  <li class="ivent-card__info-box"><p class="card__info">12:00–14:00</p></li>
-                  <li class="ivent-card__info-box"><p class="card__info">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p></li>
-                  <li class="ivent-card__info-box"><p class="card__info">Александра, +7 926 356-78-90</p></li>
-                </ul>
-                <div class="ivent-card__action-container">
-                  <div class="ivent-card__record-container">
-                    <button class="btn btn_blue btn_blue_active" type="button" >Отменить запись</button>
-                    <p class="card__info card__info_hide">Осталось 5 мест</p>
-                  </div> 
-                  <button class="btn btn_blue btn_dots btn_dots_active" type="button"></button>
-                </div>
-              </article>
-            </li>
-  
-            <li>
-              <article class="card ivent-card card_theme_white">
-                <div class="ivent-card__header-container">
-                  <p class="card__info card__info_theme_dark-gray ivent-card__info">Волонтёры + дети</p>
-                  <p class="ivent-card__date-month">декабрь / среда</p>
-                  <h2 class="card__title ivent-card__title">Ресурсная группа «Вовлечение в волонтёрство»</h2>
-                  <p class="ivent-card__date-day">16</p>
-                </div>
-                <ul class="ivent-card__info-container">
-                  <li class="ivent-card__info-box"><p class="card__info">12:00–14:00</p></li>
-                  <li class="ivent-card__info-box"><p class="card__info">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p></li>
-                  <li class="ivent-card__info-box"><p class="card__info">Александра, +7 926 356-78-90</p></li>
-                </ul>
-                <div class="ivent-card__action-container">
-                  <div class="ivent-card__record-container">
-                    <button class="btn btn_blue btn_disabled" type="button" disabled>Записаться</button>
-                    <p class="card__info">Запись закрыта</p>
-                  </div> 
-                  <button class="btn btn_blue btn_dots" type="button"></button>
-                </div>
-              </article>
-            </li>
-  
-            <li>
-              <article class="card ivent-card card_theme_white">
-                <div class="ivent-card__header-container">
-                  <p class="card__info card__info_theme_dark-gray ivent-card__info">Волонтёры + дети</p>
-                  <p class="ivent-card__date-month">Декабрь / Понедельник</p>
-                  <h2 class="card__title ivent-card__title">Занятие с выпускниками: как составить резюме</h2>
-                  <p class="ivent-card__date-day">20</p>
+                  <p class="ivent-card__date-day">28</p>
                 </div>
                 <ul class="ivent-card__info-container">
                   <li class="ivent-card__info-box"><p class="card__info">12:00–14:00</p></li>
@@ -103,54 +148,9 @@
                 </div>
               </article>
             </li>
-  
-            <li>
-              <article class="card ivent-card card_theme_white">
-                <div class="ivent-card__header-container">
-                  <p class="card__info card__info_theme_dark-gray ivent-card__info">Волонтёры + дети</p>
-                  <p class="ivent-card__date-month">Декабрь / Понедельник</p>
-                  <h2 class="card__title ivent-card__title">Субботний meet up: учимся проходить интевью</h2>
-                  <p class="ivent-card__date-day">23</p>
-                </div>
-                <ul class="ivent-card__info-container">
-                  <li class="ivent-card__info-box"><p class="card__info">12:00–14:00</p></li>
-                  <li class="ivent-card__info-box"><p class="card__info">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p></li>
-                  <li class="ivent-card__info-box"><p class="card__info">Александра, +7 926 356-78-90</p></li>
-                </ul>
-                <div class="ivent-card__action-container">
-                  <div class="ivent-card__record-container">
-                    <button class="btn btn_blue" type="button">Записаться</button>
-                    <p class="card__info">Осталось 5 мест</p>
-                  </div> 
-                  <button class="btn btn_blue btn_dots" type="button"></button>
-                </div>
-              </article>
-  
-              <li>
-                <article class="card ivent-card card_theme_white">
-                  <div class="ivent-card__header-container">
-                    <p class="card__info card__info_theme_dark-gray ivent-card__info">Волонтёры + дети</p>
-                    <p class="ivent-card__date-month">Декабрь / Понедельник</p>
-                    <h2 class="card__title ivent-card__title">Субботний meet up: учимся проходить интевью</h2>
-                    <p class="ivent-card__date-day">28</p>
-                  </div>
-                  <ul class="ivent-card__info-container">
-                    <li class="ivent-card__info-box"><p class="card__info">12:00–14:00</p></li>
-                    <li class="ivent-card__info-box"><p class="card__info">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p></li>
-                    <li class="ivent-card__info-box"><p class="card__info">Александра, +7 926 356-78-90</p></li>
-                  </ul>
-                  <div class="ivent-card__action-container">
-                    <div class="ivent-card__record-container">
-                      <button class="btn btn_blue" type="button">Записаться</button>
-                      <p class="card__info">Осталось 5 мест</p>
-                    </div> 
-                    <button class="btn btn_blue btn_dots" type="button"></button>
-                  </div>
-                </article>
-              </li>
-            </li>
-          </ul>
-        </section>
+          </li>
+        </ul>
+      </section>
         
       </main>
 
@@ -207,7 +207,7 @@
       </section>
 
       <!-- попап авторизации-->
-      <section class="popup popup_authorization popup_opened">
+      <section class="popup popup_authorization">
         <div class="popup__container popup__container_authorization">
           <h2 class="card__title">Вход</h2>
           <p class="card__text card__text_type_center card__text_place_authorization-popup">Вход в личный кабинет доступен наставникам программы «Старшие Братья Старшие Сёстры».</p>
