@@ -1,31 +1,141 @@
 .popup {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.5);
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  z-index: 1;
-  justify-content: center;
+  display: flex;
   visibility: hidden;
   opacity: 0;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, .5);
   transition: visibility .5s ease, opacity .5s ease;
 }
 
-.popup__container {
-  position: fixed;
-  bottom: 50%;
-  right: 50%;
-  transform: translate(50%, 50%);
-  background-color: #fff;
-  border-radius: 30px;
-  box-sizing: border-box;
-}
-
 .popup_opened {
-  display: flex;
   visibility: visible;
   opacity: 1;
+}
+
+.popup__container {
+  position: relative;
+  background-color: #fff;
+  width: 630px;
+  height: 630px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  padding: 20px 70px;
+}
+
+.popup__container_authorization {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  width: 570px;
+  height: 459px;
+  padding: 50px 100px;
+}
+
+.popup__container_ivent-confirmation {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  width: 570px;
+  padding: 20px 100px;
+}
+
+.popup__container_ivent-confirmed {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  width: 570px;
+  padding: 20px 100px;
+  background-image: url('../../images/calendar/ivent-confirmed.svg');
+  background-position: 178.5px 80px;
+  background-repeat: no-repeat;
+}
+
+.popup__btn {
+  border: none;
+  padding: 0;
+  transition: opacity .8s ease 0s;
+}
+
+.popup__btn:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
+
+.popup__btn_close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background-image: url('../../images/buttons/close-btn.svg');
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+
+.popup__btn_close:hover {
+  opacity: .6;
+  cursor: pointer;
+}
+
+
+@media(max-width: 1200px) {
+  .popup__container {
+    width: 460px;
+    height: 511px;
+    padding: 20px 55px;
+  }
+
+  .popup__container_authorization {
+    width: 400px;
+    height: 451px;
+    padding: 50px 85px
+  }
+
+  .popup__container_ivent-confirmed {
+    background-size: 305px 125px;
+    background-position: 132.5px 80px;
+  }
+}
+
+@media (max-width: 770px) {
+  .popup__container {
+    width: 290px;
+    height: 630px;
+    padding: 30px 0 0;
+  }
+
+  .popup__btn_close {
+    top: 25px;
+    right: 25px;
+  }
+
+  .popup__container_authorization {
+    height: 546px;
+    padding: 60px 15px 50px;
+    box-sizing: border-box;
+  }
+
+  .popup__container_ivent-confirmation {
+    padding: 30px 15px;
+    box-sizing: border-box;
+  }
+
+  .popup__container_ivent-confirmed {
+    padding: 30px 15px;
+    box-sizing: border-box;
+    background-size: 240px 98px;
+    background-position: 25px 115px;
+  }
 }

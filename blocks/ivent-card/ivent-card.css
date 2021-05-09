@@ -36,6 +36,10 @@
   justify-content: space-between;
 }
 
+.ivent-card__action-container_type_confirmation {
+  margin-top: 30px;
+}
+
 .ivent-card__info-box {
   padding: 10px 0;
   border-bottom: 1px solid #A7A6A6;
@@ -58,6 +62,11 @@
 
 .ivent-card__info-container_type_main {
   padding-top: 126px;
+
+}
+
+.ivent-card__text {
+  padding: 5px 0 30px;
 }
 
 .ivent-card__record-container {
@@ -65,6 +74,21 @@
   grid-template-columns: minmax( min-content, max-content) minmax( min-content, max-content);
   align-items: center;
   gap: 15px;
+}
+
+.ivent-card__title_type_confirmation {
+  text-align: center;
+}
+
+.ivent-card__title_type_confirmed {
+  text-align: center;
+}
+
+.ivent-card__title_type_confirmed:first-of-type {
+  margin-top: 140px;
+}
+.ivent-card__title_type_confirmed:last-of-type {
+  margin: 30px 0;
 }
 
 @media(max-width:1200px) {
@@ -109,7 +133,12 @@
     padding: 5px 0;
   }
 
+  .ivent-card__text {
+    padding: 0 0 30px;
+  }
+
   .ivent-card__record-container {
     gap: 10px;
   }
 }
+

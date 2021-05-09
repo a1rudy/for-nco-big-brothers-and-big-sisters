@@ -5,8 +5,17 @@
   width: 100%;
 }
 
+.ivents-section_hide {
+  display: none;
+}
+@media(max-width: 1200px) {
+  .ivents-section {
+    padding-top: 8px;
+  }
+}
+
 @media(max-width: 770px) {
   .ivents-section {
-    padding-top: 7px;
+    padding-top: 18px;
   }
 }
