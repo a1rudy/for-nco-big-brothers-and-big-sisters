@@ -46,6 +46,15 @@
   margin: 0;
 }
 
+.card__text_type_center {
+  text-align: center;
+}
+
+.card__text_place_authorization-popup {
+  margin:15px 0;
+  max-width: 550px;
+}
+
 .card__link {
   font-family: 'Proto Grotesk Light', 'Arial', sans-serif;
   font-style: normal;
@@ -80,6 +89,10 @@
 
 .card__info_theme_dark-gray {
   color: #464646
+}
+
+.card__info_place_authorization-popup {
+  margin-bottom: 30px;
 }
 
 .card__rubric {
@@ -121,10 +134,16 @@
   }
 }
 
-@media (max-width: 1200px) {
-  .card__text {
+@media (max-width: 770px) {
+  .card__text_place_ivent-popup {
     font-size: 12px;
     line-height: 17px;
     letter-spacing: 0.2px;
+  }
+  .card__text_place_authorization-popup {
+    margin: 15px 0 5px;
+  }
+  .card__info_place_authorization-popup {
+    margin-top: 10px;
   }
 }

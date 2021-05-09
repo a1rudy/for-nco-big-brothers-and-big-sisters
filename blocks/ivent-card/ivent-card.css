@@ -86,6 +86,7 @@
 .ivent-card__title_type_confirmed:last-of-type {
   margin: 30px 0;
 }
+
 @media(max-width:1200px) {
   .ivent-card {
     padding: 30px 15px;

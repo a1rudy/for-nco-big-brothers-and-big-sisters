@@ -12,6 +12,7 @@
 @import url('../../blocks/account-button/account-button.css');
 @import url('../../blocks/margin-left/margin-left.css');
 
+@import url('../../blocks/form/form.css');
 @import url('../../blocks/main-calendar/main-calendar.css');
 @import url('../../blocks/section/section.css');
 @import url('../../blocks/ivents-section/ivents-section.css');

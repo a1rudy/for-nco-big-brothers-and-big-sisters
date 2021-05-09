@@ -28,6 +28,16 @@
   padding: 20px 70px;
 }
 
+.popup__container_authorization {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  width: 570px;
+  height: 459px;
+  padding: 50px 100px;
+}
+
 .popup__container_ivent-confirmation {
   display: flex;
   flex-direction: column;
@@ -87,11 +97,18 @@
     padding: 20px 55px;
   }
 
+  .popup__container_authorization {
+    width: 400px;
+    height: 451px;
+    padding: 50px 85px
+  }
+
   .popup__container_ivent-confirmed {
     background-size: 305px 125px;
     background-position: 132.5px 80px;
   }
 }
+
 @media (max-width: 770px) {
   .popup__container {
     width: 290px;
@@ -102,6 +119,12 @@
   .popup__btn_close {
     top: 25px;
     right: 25px;
+  }
+
+  .popup__container_authorization {
+    height: 546px;
+    padding: 60px 15px 50px;
+    box-sizing: border-box;
   }
 
   .popup__container_ivent-confirmation {
