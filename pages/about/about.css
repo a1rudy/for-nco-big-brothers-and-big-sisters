@@ -1,200 +1,27 @@
-.about__main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, min-content);
-    grid-gap: 0;
-}
+@import url('../../vendor/fonts.css');
+@import url('../../vendor/normalize.css');
 
-.logo {
-    margin: 0 auto;
-}
+@import url('../../blocks/body/body.css');
+@import url('../../blocks/page/page.css');
 
-.about__title {
-    font-family: Proto Grotesk Web Light, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 44px;
-    line-height: 50px;
-    text-align: center;
-    max-width: 1170px;
-    max-height: 200px;
-    margin: 0 auto 0;
-}
+@import url('../../blocks/header/header.css');
+@import url('../../blocks/burger-button/burger-button.css');
+@import url('../../blocks/menu/menu.css');
+@import url('../../blocks/buttons-wrap/buttons-wrap.css');
+@import url('../../blocks/search-button/search-button.css');
+@import url('../../blocks/account-button/account-button.css');
+@import url('../../blocks/margin-left/margin-left.css');
+@import url('../../blocks/btn/btn.css');
 
-.about__title:nth-of-type(3) {
+@import url('../../blocks/main/main.css');
+@import url('../../blocks/about-section/about-section.css');
+@import url('../../blocks/about-title/about-title.css');
+@import url('../../blocks/organization-section/organization-section.css');
+@import url('../../blocks/card/card.css');
+@import url('../../blocks/annotation-card/annotation-card.css');
+@import url('../../blocks/target-section/target-section.css');
+@import url('../../blocks/future-section/future-section.css');
+@import url('../../blocks/future-card/future-card.css');
 
-
-}
-
-.about__border {
-    border-bottom: 1px solid #000000;
-    border-top: 1px solid #000000;
-    padding-bottom: 60px;
-    padding-top: 60px;
-    margin-bottom: 80px;
-}
-
-.about__logo {
-    max-width: 337px;
-    max-height: 65px;
-    margin: 50px auto 0;
-}
-
-.about__circle {
-    width: 570px;
-    height: 570px;
-    background: #F8D162;
-    border-radius: 50%;
-    font-family: Proto Grotesk Web Light, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 23px;
-    line-height: 30px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/*.about__h2 {*/
-/*    font-family: Proto Grotesk Web Light;*/
-/*    font-style: normal;*/
-/*    font-weight: 300;*/
-/*    font-size: 23px;*/
-/*    line-height: 30px;*/
-/*    text-align: center*/
-/*}*/
-
-.about__platform {
-    display: grid;
-    grid-template-columns: 570px 600px;
-    grid-template-rows: 570px;
-    margin: 80px auto;
-}
-
-.about__description {
-    align-items: center;
-    background-color: white;
-    padding: 52px 30px;;
-}
-.about__feature_block {
-    align-items: center;
-    background-color: white;
-    padding: 30px 30px;;
-}
-
-.about__description_text {
-    margin-bottom: 17px;
-}
-
-.about__feature {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /*grid-template-rows: 120px 265px;*/
-    grid-column-gap: 30px;
-    margin-bottom: 120px;
-}
-
-.about__blocks {
-    padding: 45px;
-    text-align: center;
-
-
-}
-
-.about__cards {
-    display: flex;
-    flex-direction: column;
-}
-
-@media (max-width: 1440px) {
-
-}
-
-@media (max-width: 1200px) {
-    .about__logo {
-        max-width: 238px;
-        max-height: 46px;
-        margin-top: 30px;
-    }
-
-    .about__title {
-        max-width: 1030px;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 19px;
-        line-height: 23px;
-        text-align: center;
-    }
-
-    .about__circle {
-        width: 370px;
-        height: 358px;
-        font-size: 19px;
-        line-height: 23px;
-    }
-
-    .about__description_text {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 21px;
-        margin-bottom: 20px;
-    }
-
-    .about__description_text:last-of-type {
-        margin-bottom: 15px;
-    }
-
-    .about__platform {
-        grid-template-columns: 570px;
-        grid-template-rows: 358px 373px;
-        margin: 50px auto;
-        justify-items: center;
-    }
-
-    .about__description {
-        padding: 30px 15px;
-    }
-
-
-    .about__border {
-        margin-top: 0;
-        margin-bottom: 50px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-
-    .about__feature {
-        grid-template-columns: 570px;
-        justify-content: center;
-    }
-}
-
-@media (max-width: 500px) {
-    .about__title {
-        font-weight: 300;
-        font-size: 19px;
-        line-height: 23px;
-        max-width: 290px;
-    }
-
-    .about__circle {
-        width: 290px;
-        height: 280px;
-
-    }
-
-    .about__platform {
-        grid-template-columns: 290px;
-        grid-template-rows: 280px 688px;
-        margin-top: 30px;
-        margin-bottom: 50px;
-        justify-items: center;
-    }
-
-    .about__feature {
-        grid-template-columns: 290px;
-        justify-content: center;
-    }
-}
+@import url('../../blocks/footer/footer.css');
+@import url('../../blocks/donate-button/donate-button.css');

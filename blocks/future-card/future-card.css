@@ -1,0 +1,23 @@
+.future-card {
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.future-section__cell {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1200px) {
+  .future-section__cell {
+    padding-top: 30px;
+  }
+
+  .future-section__cell:first-child {
+    padding-top: 50px;
+  }
+}

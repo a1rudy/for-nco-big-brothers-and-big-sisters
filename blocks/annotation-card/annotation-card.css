@@ -10,6 +10,15 @@
   scrollbar-width: thin;
 }
 
+.annotation-card_type_about {
+  padding: 52px 30px;
+  max-width: 550px;
+}
+
+.annotation-card__container_type_about {
+  height: 462px;
+}
+
 .annotation-card__info {
   margin-bottom: 105px;
 }
@@ -50,5 +59,15 @@
 
   .annotation-card__container {
     max-height: 128px;
+  }
+
+  .annotation-card__container_type_about {
+    min-height: 313px;
+  }
+}
+
+@media(max-width: 500px) {
+  .annotation-card__container_type_about {
+    min-height: 645px;
   }
 }

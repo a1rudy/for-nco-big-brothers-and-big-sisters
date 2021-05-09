@@ -1,0 +1,16 @@
+.about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.about-section__logo {
+  max-width: 337px;
+}
+
+@media (max-width: 1200px) {
+  .about-section__logo {
+    max-width: 252px;
+  }
+}

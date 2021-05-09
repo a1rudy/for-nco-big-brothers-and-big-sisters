@@ -1,0 +1,13 @@
+.target-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+@media (max-width: 1200px) {
+  .target-section {
+    padding-top: 30px;
+  }
+}

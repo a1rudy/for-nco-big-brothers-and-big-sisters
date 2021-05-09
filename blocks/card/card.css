@@ -4,6 +4,12 @@
   border-radius: 30px;
 }
 
+.card_type_future {
+  max-width: 100%;
+  padding: 45px 97px;
+  border-radius: 70px;
+}
+
 .card_theme_light-blue {
   background-color: #C8D1FF;
 }
@@ -71,6 +77,10 @@
   line-height: 19px;
   margin-bottom: 10px;
   text-align: center;
+}
+
+.card__text_type_about:last-child {
+  margin-bottom: 0;
 }
 
 .card__text_type_center {
@@ -162,6 +172,11 @@
 }
 
 @media (max-width: 770px) {
+  .card_type_future {
+    max-width: 100%;
+    padding: 27px 72px;
+    border-radius: 70px;
+  }
   .card__text_place_ivent-popup {
     font-size: 12px;
     line-height: 17px;

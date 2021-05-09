@@ -8,6 +8,11 @@
   box-sizing: border-box;
 }
 
+.main_type_about {
+  grid-template-rows: repeat(3, min-content);
+  grid-gap: 0;
+}
+
 @media (max-width: 1440px) {
   .main {
     padding: 0 135px 120px;

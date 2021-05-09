@@ -1,0 +1,38 @@
+.about-title {
+  max-width: 1170px;
+  font-family: 'Proto Grotesk Web Light', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.about-title_type_target {
+  max-width: 964px;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 1440px) {
+  .about-title {
+    max-width: 1020px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-title {
+    max-width: 770px;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 23px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-title {
+    max-width: 770px;
+  }
+}

@@ -1,0 +1,20 @@
+.future-section {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+}
+
+@media (max-width: 1200px) {
+  .future-section {
+    padding: 0 100px;
+    display: block;
+  }
+}
+
+@media (max-width: 770px) {
+  .future-section {
+    padding: 0;
+    display: block;
+  }
+}
