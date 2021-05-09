@@ -1,0 +1,37 @@
+.social-card {
+  box-sizing: border-box;
+  width: 420px;
+  height: 627px;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  border-radius: 30px;
+  background-image: url('../../images/cards/social-card.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+@media (max-width: 1440px) {
+  .social-card {
+    width: 370px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .social-card {
+    width: 370px;
+    height: 522px;
+  }
+}
+
+@media (max-width: 870px) {
+  .social-card {
+    width: 290px;
+    height: 433px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+  }
+}

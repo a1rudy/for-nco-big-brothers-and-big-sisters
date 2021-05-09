@@ -1,5 +1,5 @@
 .article-card {
-  padding: 15px 30px;
+  padding: 15px 30px 30px;
   align-items: center;
 }
 
@@ -19,10 +19,6 @@
   margin: 40px 0 15px;
   border-radius: 15px;
   object-fit: cover;
-}
-
-.article-card__link {
-  margin-bottom: 15px;
 }
 
 .article-card__info {

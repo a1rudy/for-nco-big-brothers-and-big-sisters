@@ -11,6 +11,7 @@
 @import url('../blocks/search-button/search-button.css');
 @import url('../blocks/account-button/account-button.css');
 @import url('../blocks/margin-left/margin-left.css');
+@import url('../blocks/btn/btn.css');
 
 @import url('../blocks/main/main.css');
 @import url('../blocks/intro-section/intro-section.css');
@@ -23,16 +24,23 @@
 @import url('../blocks/ivent-card/ivent-card.css');
 @import url('../blocks/article-card/article-card.css');
 @import url('../blocks/annotation-card/annotation-card.css');
-@import url('../blocks/video-card/video-card.css');
-@import url('../blocks/book-card/book-card.css');
 @import url('../blocks/quot-card/quot-card.css');
 
+@import url('../blocks/movie-section/movie-section.css');
+@import url('../blocks/movie-card/movie-card.css');
 
+@import url('../blocks/video-section/video-section.css');
+@import url('../blocks/video-card/video-card.css');
 
+@import url('../blocks/faq-section/faq-section.css');
+@import url('../blocks/social-card/social-card.css');
+@import url('../blocks/faq-card/faq-card.css');
 
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/donate-button/donate-button.css');
 
+@import url('../blocks/popup/popup.css');
+@import url('../blocks/popup-login/popup-login.css');
+@import url('../blocks/popup-city/popup-city.css');
 
-
-
+@import url('../blocks/about/about.css');

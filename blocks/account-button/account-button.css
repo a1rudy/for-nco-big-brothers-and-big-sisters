@@ -11,8 +11,12 @@
   background-repeat: no-repeat;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1350px) {
   .account-button {
     display: none;
   }
+}
+
+.account-button_auth {
+  background-image: url(../../images/header/accaunt-logo_auth.svg);
 }
