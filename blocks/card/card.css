@@ -19,6 +19,9 @@
 .card_theme_yellow {
   background-color: #F8D162;
 }
+.card_theme_red {
+  background-color: #FF8585;
+}
 
 .card__title {
   display: inline-block;

@@ -27,7 +27,7 @@
 @import url('../blocks/book-card/book-card.css');
 @import url('../blocks/quot-card/quot-card.css');
 
-
+@import url('../blocks/section/section.css');
 
 
 @import url('../blocks/footer/footer.css');
@@ -36,4 +36,5 @@
 
 
 
-@import url('../blocks/about/about.css');
+@import url('about/about.css');
+
