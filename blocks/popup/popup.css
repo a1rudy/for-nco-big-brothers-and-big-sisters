@@ -37,6 +37,18 @@
   padding: 20px 100px;
 }
 
+.popup__container_ivent-confirmed {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  width: 570px;
+  padding: 20px 100px;
+  background-image: url('../../images/calendar/ivent-confirmed.svg');
+  background-position: 178.5px 80px;
+  background-repeat: no-repeat;
+}
+
 .popup__btn {
   border: none;
   padding: 0;
@@ -75,6 +87,10 @@
     padding: 20px 55px;
   }
 
+  .popup__container_ivent-confirmed {
+    background-size: 305px 125px;
+    background-position: 132.5px 80px;
+  }
 }
 @media (max-width: 770px) {
   .popup__container {
@@ -90,5 +106,13 @@
 
   .popup__container_ivent-confirmation {
     padding: 30px 15px;
+    box-sizing: border-box;
+  }
+
+  .popup__container_ivent-confirmed {
+    padding: 30px 15px;
+    box-sizing: border-box;
+    background-size: 240px 98px;
+    background-position: 25px 115px;
   }
 }

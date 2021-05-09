@@ -71,8 +71,20 @@
   align-items: center;
   gap: 15px;
 }
+
 .ivent-card__title_type_confirmation {
   text-align: center;
+}
+
+.ivent-card__title_type_confirmed {
+  text-align: center;
+}
+
+.ivent-card__title_type_confirmed:first-of-type {
+  margin-top: 140px;
+}
+.ivent-card__title_type_confirmed:last-of-type {
+  margin: 30px 0;
 }
 @media(max-width:1200px) {
   .ivent-card {
