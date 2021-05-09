@@ -26,11 +26,15 @@
 @import url('../blocks/annotation-card/annotation-card.css');
 @import url('../blocks/quot-card/quot-card.css');
 
+
 @import url('../blocks/movie-section/movie-section.css');
 @import url('../blocks/movie-card/movie-card.css');
 
 @import url('../blocks/video-section/video-section.css');
 @import url('../blocks/video-card/video-card.css');
+
+@import url('../blocks/section/section.css');
+
 
 @import url('../blocks/faq-section/faq-section.css');
 @import url('../blocks/social-card/social-card.css');
@@ -42,4 +46,7 @@
 @import url('../blocks/popup/popup.css');
 @import url('../blocks/form/form.css');
 
-@import url('../blocks/about/about.css');
+
+
+
+
