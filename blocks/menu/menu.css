@@ -33,7 +33,7 @@
   text-decoration: none;
 }
   
-.menu_type_hover:hover {
+.menu__link_type_hover:hover {
   color: #224CFF;
 }
 
@@ -77,10 +77,10 @@
 }
 
 @media (max-width: 1350px) {
-  .menu_media_1350 {
+  .menu_type_burger {
     width: 100%;
     position: fixed;
-    top:52px;
+    top: 52px;
     visibility: hidden;
     height: calc(100% - 52px);
     right: -100%;
@@ -89,7 +89,7 @@
     border-radius: 0px 0px 30px 30px;
   }
 
-  .menu__links_media_1350 {
+  .menu__links_type_burger {
     flex-direction: column;
   }
   

@@ -1,0 +1,32 @@
+@import url('../vendor/fonts.css');
+@import url('../vendor/normalize.css');
+
+@import url('../blocks/body/body.css');
+@import url('../blocks/page/page.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/burger-button/burger-button.css');
+@import url('../blocks/menu/menu.css');
+@import url('../blocks/buttons-wrap/buttons-wrap.css');
+@import url('../blocks/search-button/search-button.css');
+@import url('../blocks/account-button/account-button.css');
+@import url('../blocks/margin-left/margin-left.css');
+
+@import url('../blocks/form/form.css');
+@import url('../blocks/main-calendar/main-calendar.css');
+@import url('../blocks/section/section.css');
+@import url('../blocks/ivents-section/ivents-section.css');
+
+@import url('../blocks/filters-container/filters-container.css');
+
+@import url('../blocks/btn/btn.css');
+
+@import url('../blocks/ivents-container/ivents-container.css');
+
+@import url('../blocks/card/card.css');
+@import url('../blocks/ivent-card/ivent-card.css');
+
+@import url('../blocks/popup/popup.css');
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/donate-button/donate-button.css');

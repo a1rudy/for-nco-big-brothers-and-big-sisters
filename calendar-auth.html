@@ -4,31 +4,36 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./calendar.css">
+  <link rel="stylesheet" href="./pages/calendar.css">
   <title>Календарь</title>
 </head>
   <body class="body">
     <div class="page">
       <header class="header">
         <button class="burger-button" type="button"></button>
-        <a class="header__logo" href="../../index.html" target="_blank">наставники.про</a>
-        <nav class="menu menu_media_1350">
-          <ul class="menu__links menu__links_media_1350">
-            <li class="menu__cell"><a class="menu__link menu_type_hover" href="./calendar-auth.html" target="_blank">календарь</a></li>
-            <li class="menu__cell"><a class="menu__link menu_type_hover" href="#" target="_blank">куда пойти</a></li>  
-            <li class="menu__cell"><a class="menu__link menu_type_hover" href="#" target="_blank">вопросы</a></li>  
-            <li class="menu__cell"><a class="menu__link menu_type_hover" href="#" target="_blank">читать и смотреть</a></li>  
-            <li class="menu__cell"><a class="menu__link menu_type_hover" href="#" target="_blank">права детей</a></li>  
-            <li class="menu__cell"><a class="menu__link menu_type_hover" href="#" target="_blank">истории</a></li>
+        <a class="header__logo" href="./index.html" target="_blank">наставники.про</a>
+        <nav class="menu menu_type_burger">
+          <ul class="menu__links menu__links_type_burger">
+            <li class="menu__cell"><a class="menu__link menu__link_type_hover" href="#" target="_blank">календарь</a></li>
+            <li class="menu__cell"><a class="menu__link menu__link_type_hover" href="#" target="_blank">куда пойти</a></li>  
+            <li class="menu__cell"><a class="menu__link menu__link_type_hover" href="#" target="_blank">вопросы</a></li>  
+            <li class="menu__cell"><a class="menu__link menu__link_type_hover" href="#" target="_blank">читать и смотреть</a></li>  
+            <li class="menu__cell"><a class="menu__link menu__link_type_hover" href="#" target="_blank">права детей</a></li>  
+            <li class="menu__cell"><a class="menu__link menu__link_type_hover" href="#" target="_blank">истории</a></li>
           </ul>
         </nav>
         <div class="buttons-wrap">
           <button class="search-button"></button>
-          <a href="./calendar-auth.html"><button class="account-button margin-left"></button></a>
+          <!-- временная обертка кнопки ссылкой для демонстрации функциональности -->
+          <a href="./calendar.html">
+            <button class="account-button margin-left account-button_auth"></button>
+          </a>
         </div>
       </header>
+
       <main class="main-calendar">
-        <section class="section ivents-section ivents-section_hide">
+
+        <section class="section ivents-section">
           <h1 class="page__title">Календарь</h1>
           <ul class="filters-container">
             <li><button class="btn btn_active" type="button">Декабря</button></li>
@@ -44,7 +49,7 @@
                   <p class="ivent-card__date-day">05</p>
                 </div>
                 <ul class="ivent-card__info-container">
-                  <li class="ivent-card__info-box"><p class="card__info">12:00–14:00</p></li>
+                  <li class="ivent-card__info-box"><time class="card__info">12:00</time>–<time class="card__info">14:00</time></li>
                   <li class="ivent-card__info-box"><p class="card__info">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p></li>
                   <li class="ivent-card__info-box"><p class="card__info">Александра, +7 926 356-78-90</p></li>
                 </ul>
@@ -57,7 +62,7 @@
                 </div>
               </article>
             </li>
-  
+
             <li>
               <article class="card ivent-card card_theme_white">
                 <div class="ivent-card__header-container">
@@ -67,20 +72,20 @@
                   <p class="ivent-card__date-day">16</p>
                 </div>
                 <ul class="ivent-card__info-container">
-                  <li class="ivent-card__info-box"><p class="card__info">12:00–14:00</p></li>
+                  <li class="ivent-card__info-box"><time class="card__info">12:00</time>–<time class="card__info">14:00</time></li>
                   <li class="ivent-card__info-box"><p class="card__info">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p></li>
                   <li class="ivent-card__info-box"><p class="card__info">Александра, +7 926 356-78-90</p></li>
                 </ul>
                 <div class="ivent-card__action-container">
                   <div class="ivent-card__record-container">
-                    <button class="btn btn_blue btn_disabled" type="button" disabled>Записаться</button>
+                    <button class="btn btn_blue btn_disabled" type="submit" disabled>Записаться</button>
                     <p class="card__info">Запись закрыта</p>
                   </div> 
                   <button class="btn btn_blue btn_dots" type="button"></button>
                 </div>
               </article>
             </li>
-  
+
             <li>
               <article class="card ivent-card card_theme_white">
                 <div class="ivent-card__header-container">
@@ -90,20 +95,20 @@
                   <p class="ivent-card__date-day">20</p>
                 </div>
                 <ul class="ivent-card__info-container">
-                  <li class="ivent-card__info-box"><p class="card__info">12:00–14:00</p></li>
+                  <li class="ivent-card__info-box"><time class="card__info">12:00</time>–<time class="card__info">14:00</time></li>
                   <li class="ivent-card__info-box"><p class="card__info">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p></li>
                   <li class="ivent-card__info-box"><p class="card__info">Александра, +7 926 356-78-90</p></li>
                 </ul>
                 <div class="ivent-card__action-container">
                   <div class="ivent-card__record-container">
-                    <button class="btn btn_blue" type="button">Записаться</button>
+                    <button class="btn btn_blue" type="submit">Записаться</button>
                     <p class="card__info">Осталось 5 мест</p>
                   </div> 
                   <button class="btn btn_blue btn_dots" type="button"></button>
                 </div>
               </article>
             </li>
-  
+
             <li>
               <article class="card ivent-card card_theme_white">
                 <div class="ivent-card__header-container">
@@ -113,41 +118,40 @@
                   <p class="ivent-card__date-day">23</p>
                 </div>
                 <ul class="ivent-card__info-container">
-                  <li class="ivent-card__info-box"><p class="card__info">12:00–14:00</p></li>
+                  <li class="ivent-card__info-box"><time class="card__info">12:00</time>–<time class="card__info">14:00</time></li>
                   <li class="ivent-card__info-box"><p class="card__info">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p></li>
                   <li class="ivent-card__info-box"><p class="card__info">Александра, +7 926 356-78-90</p></li>
                 </ul>
                 <div class="ivent-card__action-container">
                   <div class="ivent-card__record-container">
-                    <button class="btn btn_blue" type="button">Записаться</button>
+                    <button class="btn btn_blue" type="submit">Записаться</button>
                     <p class="card__info">Осталось 5 мест</p>
                   </div> 
                   <button class="btn btn_blue btn_dots" type="button"></button>
                 </div>
               </article>
-  
-              <li>
-                <article class="card ivent-card card_theme_white">
-                  <div class="ivent-card__header-container">
-                    <p class="card__info card__info_theme_dark-gray ivent-card__info">Волонтёры + дети</p>
-                    <p class="ivent-card__date-month">Декабрь / Понедельник</p>
-                    <h2 class="card__title ivent-card__title">Субботний meet up: учимся проходить интевью</h2>
-                    <p class="ivent-card__date-day">28</p>
-                  </div>
-                  <ul class="ivent-card__info-container">
-                    <li class="ivent-card__info-box"><p class="card__info">12:00–14:00</p></li>
-                    <li class="ivent-card__info-box"><p class="card__info">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p></li>
-                    <li class="ivent-card__info-box"><p class="card__info">Александра, +7 926 356-78-90</p></li>
-                  </ul>
-                  <div class="ivent-card__action-container">
-                    <div class="ivent-card__record-container">
-                      <button class="btn btn_blue" type="button">Записаться</button>
-                      <p class="card__info">Осталось 5 мест</p>
-                    </div> 
-                    <button class="btn btn_blue btn_dots" type="button"></button>
-                  </div>
-                </article>
-              </li>
+
+            <li>
+              <article class="card ivent-card card_theme_white">
+                <div class="ivent-card__header-container">
+                  <p class="card__info card__info_theme_dark-gray ivent-card__info">Волонтёры + дети</p>
+                  <p class="ivent-card__date-month">Декабрь / Понедельник</p>
+                  <h2 class="card__title ivent-card__title">Субботний meet up: учимся проходить интевью</h2>
+                  <p class="ivent-card__date-day">28</p>
+                </div>
+                <ul class="ivent-card__info-container">
+                  <li class="ivent-card__info-box"><time class="card__info">12:00</time>–<time class="card__info">14:00</time></li>
+                  <li class="ivent-card__info-box"><p class="card__info">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p></li>
+                  <li class="ivent-card__info-box"><p class="card__info">Александра, +7 926 356-78-90</p></li>
+                </ul>
+                <div class="ivent-card__action-container">
+                  <div class="ivent-card__record-container">
+                    <button class="btn btn_blue" type="submit">Записаться</button>
+                    <p class="card__info">Осталось 5 мест</p>
+                  </div> 
+                  <button class="btn btn_blue btn_dots" type="button"></button>
+                </div>
+              </article>
             </li>
           </ul>
         </section>
@@ -165,7 +169,7 @@
               <p class="ivent-card__date-day">05</p>
             </div>
             <ul class="ivent-card__info-container">
-              <li class="ivent-card__info-box"><p class="card__info">12:00–14:00</p></li>
+              <li class="ivent-card__info-box"><time class="card__info">12:00</time>–<time class="card__info">14:00</time></li>
               <li class="ivent-card__info-box"><p class="card__info">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p></li>
               <li class="ivent-card__info-box"><p class="card__info">Александра, +7 926 356-78-90</p></li>
             </ul>
@@ -173,7 +177,7 @@
             </p>
             <div class="ivent-card__action-container">
               <div class="ivent-card__record-container">
-                <button class="btn btn_blue" type="button" aria-label="Записаться">Записаться</button>
+                <button class="btn btn_blue" type="submit" aria-label="Записаться">Записаться</button>
                 <p class="card__info">Осталось 5 мест</p>
               </div>
             </div>
@@ -184,9 +188,9 @@
 
       <!-- попап подтверждения регистрации на ивент -->
       <section class="popup popup_ivent-confirmation">
-        <div class="popup__container popup__container_ivent-confirmation">
+        <div class="popup__container popup__container_ivent-confirmation"><time class="card__info">12:00</time>–<time class="card__info">14:00</time>
           <h2 class="card__title ivent-card__title ivent-card__title_type_confirmation">Подтвердить запись на мероприятие</h2>
-          <h2 class="card__title ivent-card__title ivent-card__title_type_confirmation">«Субботний meet up: учимся проходить интервью» 5 декабря с 12:00–14:00</h2>
+          <h2 class="card__title ivent-card__title ivent-card__title_type_confirmation">«Субботний meet up: учимся проходить интервью» 5 декабря с <time>12:00</time>–<time>14:00</time></h2>
           <div class="ivent-card__action-container ivent-card__action-container_type_confirmation">
             <button class="btn btn_blue btn_blue_type_confirmation" type="button" aria-label="Подтвердить запись">Подтвердить запись</button> 
             <button class="btn" type="button" aria-label="Отменить запись">Отменить</button> 
@@ -199,7 +203,7 @@
       <section class="popup popup_ivent-confirmed">
         <div class="popup__container popup__container_ivent-confirmed">
           <h2 class="card__title ivent-card__title ivent-card__title_type_confirmed">Вы записаны на мероприятие</h2>
-          <h2 class="card__title ivent-card__title ivent-card__title_type_confirmed">«Субботний meet up: учимся проходить интервью» 5 декабря с 12:00–14:00</h2>
+          <h2 class="card__title ivent-card__title ivent-card__title_type_confirmed">«Субботний meet up: учимся проходить интервью» 5 декабря с <time>12:00</time>–<time>14:00</time></h2>
           <h2 class="card__title ivent-card__title ivent-card__title_type_confirmed">Если у вас не получится прийти — отмените, пожалуйста, запись.</h2>
           <button class="btn" type="button" aria-label="Вернуться к календарю">Вернуться к календарю </button> 
           <button class="popup__btn popup__btn_close" type="button" aria-label="Закрыть окно подтвержденной записи"></button>
@@ -232,12 +236,12 @@
 
       <footer class="footer">
         <div class="footer__container">
-          <img class="footer__logo" src="../../images/footer/logo-bbbs.png" alt="Логотип: Старшие браться, старшие сестры" >
+          <img class="footer__logo" src="./images/footer/logo-bbbs.png" alt="Логотип: Старшие браться, старшие сестры" >
           <nav class="menu menu_type_footer">
             <ul class="menu__links menu__links_type_footer">
               <li class="menu__links-block">
-                <div class="menu__cell menu__cell_type_footer"><a class="menu__link menu__link_type_footer" href="../../pages/about/about.html" target="_blank">о проекте</a></div>
-                <div class="menu__cell menu__cell_type_footer"><a class="menu__link menu__link_type_footer" href="./calendar-auth.html" target="_blank">календарь</a></div>
+                <div class="menu__cell menu__cell_type_footer"><a class="menu__link menu__link_type_footer" href="./about.html" target="_blank">о проекте</a></div>
+                <div class="menu__cell menu__cell_type_footer"><a class="menu__link menu__link_type_footer" href="#" target="_blank">календарь</a></div>
               </li>
               <li class="menu__links-block">
                 <div class="menu__cell menu__cell_type_footer"><a class="menu__link menu__link_type_footer" href="#" target="_blank">куда пойти</a></div>  

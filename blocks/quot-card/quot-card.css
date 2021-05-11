@@ -1,9 +1,13 @@
 .quot-card {
   align-items: center;
   padding: 7% 22.5% 2%;
+  margin: 0;
 }
 
 .quot-card__title {
+  /* размер шрифта и форма блока в соотвествии с новым макетом */
+  max-width: 960px;
+  font-weight: normal;
   font-size: 44px;
   line-height: 50px;
   margin-bottom: 72px;
@@ -23,7 +27,7 @@
 
 @media (max-width: 1200px) {
   .quot-card {
-    padding: 4.5% 5.5% 2%;
+    padding: 3.8% 4.8% 2%;
   }
 
   .quot-card__title {

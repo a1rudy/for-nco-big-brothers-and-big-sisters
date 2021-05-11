@@ -1,0 +1,27 @@
+@import url('../vendor/fonts.css');
+@import url('../vendor/normalize.css');
+
+@import url('../blocks/body/body.css');
+@import url('../blocks/page/page.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/burger-button/burger-button.css');
+@import url('../blocks/menu/menu.css');
+@import url('../blocks/buttons-wrap/buttons-wrap.css');
+@import url('../blocks/search-button/search-button.css');
+@import url('../blocks/account-button/account-button.css');
+@import url('../blocks/margin-left/margin-left.css');
+@import url('../blocks/btn/btn.css');
+
+@import url('../blocks/main/main.css');
+@import url('../blocks/about-section/about-section.css');
+@import url('../blocks/about-title/about-title.css');
+@import url('../blocks/organization-section/organization-section.css');
+@import url('../blocks/card/card.css');
+@import url('../blocks/annotation-card/annotation-card.css');
+@import url('../blocks/target-section/target-section.css');
+@import url('../blocks/future-section/future-section.css');
+@import url('../blocks/future-card/future-card.css');
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/donate-button/donate-button.css');
