@@ -12,7 +12,7 @@
   flex-direction: column;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   .future-section__cell {
     padding-top: 30px;
   }
